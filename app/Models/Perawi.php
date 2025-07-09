@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Perawi extends Model
 {
+    protected $table = 'perawi';
     protected $fillable = ['nama_perawi'];
 
     public function hadists()

@@ -16,11 +16,13 @@ class PreprocessingController extends Controller
      */
     public function getHadisDocuments()
     {
-        $ids = [];
-        $dataHadist = Hadist::whereIn('id', $ids)->with('kitab', 'perawi')->get();
+        $dataHadist = Hadist::with('kitab', 'perawi')
+        ->limit(10) // Ambil hanya 10 data hadis
+        ->get();
 
         return $dataHadist->map(function ($hadist) {
             return [
+                'id' => $hadist->id,
                 'no_hadist' => $hadist->no_hadist,
                 'kitab' => $hadist->kitab->nama_kitab,
                 'perawi' => $hadist->perawi->nama_perawi,
@@ -43,66 +45,74 @@ class PreprocessingController extends Controller
 
     public function preprocessHadisDocumentsDetailed()
     {
+        // Ambil 10 hadis (sesuai pembaruan di getHadisDocuments)
         $documents = $this->getHadisDocuments();
-
-        foreach ($documents as &$document) {
-            $preprocessingResult = PreprocessingText::preprocessTextDetailed($document['isi']);
-            $document['preprocessing'] = $preprocessingResult;
+    
+        $detailed = [];
+    
+        // Proses tiap hadis
+        foreach ($documents as $doc) {
+            $pre = PreprocessingText::preprocessTextDetailed($doc['isi_hadist']);
+            // Gabungkan hasil preprocessing ke dalam dokumen
+            $detailed[] = array_merge($doc, [
+                'preprocessing' => $pre,
+            ]);
         }
-
-        // Tambahkan dokumen query
+    
+        // Tambahkan dokumen query dengan format yang sama
         $query = "Terpidana melarikan diri dari tempat pidana penjara.";
-        $queryPreprocessing = PreprocessingText::preprocessTextDetailed($query);
-
-        $documents[] = [
-            'buku' => 'Query',
-            'bab' => '-',
-            'pasal' => 'Query',
-            'isi' => $query,
-            'preprocessing' => $queryPreprocessing
+        $preQuery = PreprocessingText::preprocessTextDetailed($query);
+    
+        $detailed[] = [
+            'id'           => null,
+            'no_hadist'    => null,
+            'kitab'        => 'Query',
+            'perawi'       => '-',
+            'isi_hadist'   => $query,
+            'preprocessing'=> $preQuery,
         ];
-        // dd($documents);
-
-        return $documents;
+    
+        return $detailed;
     }
+    
 
     public function resultPreprocessing()
     {
         // Ambil dokumen pasal
-        $documentsPasal = $this->getHadisDocuments();
+        $documentsHadis = $this->getHadisDocuments();
         $documents = $this->preprocessHadisDocuments();
         $documentsdetailed = $this->preprocessHadisDocumentsDetailed();
         
         // Contoh query yang akan diproses
-        $query = "Terpidana melarikan diri dari tempat pidana penjara.";
+        $query = "";
         $preprocessedQuery = PreprocessingText::preprocessText($query);
         
         // TF
-        $tfTable = JaccardSimilarity::calculateTermFrequencies($documents, $preprocessedQuery);
+        // $tfTable = JaccardSimilarity::calculateTermFrequencies($documents, $preprocessedQuery);
         
-        // TF Weight
-        $tfWeightTable = JaccardSimilarity::calculateTFWeight($tfTable, count($documents));
+        // // TF Weight
+        // $tfWeightTable = JaccardSimilarity::calculateTFWeight($tfTable, count($documents));
         
-        // IDF
-        $idfTable = JaccardSimilarity::calculateIDF($tfTable, count($documents));
+        // // IDF
+        // $idfTable = JaccardSimilarity::calculateIDF($tfTable, count($documents));
 
-        // TF-IDF
-        $tfidfTable = JaccardSimilarity::calculateTFIDF($tfWeightTable, $idfTable, count($documents));
+        // // TF-IDF
+        // $tfidfTable = JaccardSimilarity::calculateTFIDF($tfWeightTable, $idfTable, count($documents));
         
-        // Cosine Similarity
-        $cosineSimilarities = JaccardSimilarity::JaccardSimilarity($tfidfTable, count($documents));
+        // // Cosine Similarity
+        // $cosineSimilarities = JaccardSimilarity::JaccardSimilarity($tfidfTable, count($documents));
         
         return view('sections.result', compact(
-            'documentsPasal',
+            'documentsHadis',
             'documents',
+            'documentsdetailed',
             'query',
             'preprocessedQuery',
-            'tfTable',
-            'tfWeightTable',
-            'idfTable',
-            'tfidfTable',
-            'cosineSimilarities',
-            'documentsdetailed'
+            // 'tfTable',
+            // 'tfWeightTable',
+            // 'idfTable',
+            // 'tfidfTable',
+            // 'cosineSimilarities',
         ));
     }
 }

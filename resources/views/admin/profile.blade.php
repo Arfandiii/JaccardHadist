@@ -25,14 +25,14 @@
                 <div class="bg-white p-8 rounded-2xl shadow-xl">
                     <!-- Header -->
                     <div class="flex items-center mb-8">
-                        <div class="w-28 h-28 rounded-full overflow-hidden border-4 border-blue-200 shadow-sm mr-6">
-                            <img src="https://ui-avatars.com/api/?name={{ urlencode($user->name) }}&background=3b82f6&color=fff&size=128"
+                        <div class="w-28 h-28 rounded-full overflow-hidden border-4 border-green-200 shadow-sm mr-6">
+                            <img src="https://ui-avatars.com/api/?name={{ urlencode($user->name) }}&background=008236&color=fff&size=128"
                                 alt="Profile Picture" class="object-cover w-full h-full">
                         </div>
                         <div>
-                            <h1 class="text-2xl md:text-3xl font-bold text-blue-700 mb-1">{{ $user->name }}</h1>
+                            <h1 class="text-2xl md:text-3xl font-bold text-green-700 mb-1">{{ $user->name }}</h1>
                             <div class="flex items-center gap-2">
-                                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm capitalize">
+                                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm capitalize">
                                     Admin
                                 </span>
                             </div>
@@ -47,7 +47,7 @@
                         </div>
                         <div>
                             <p class="font-semibold">Username:</p>
-                            <p>{{ $user->name ?? '-' }}</p>
+                            <p>{{ $user->username ?? '-' }}</p>
                         </div>
                         <div>
                             <p class="font-semibold">Tanggal Bergabung:</p>
@@ -62,7 +62,7 @@
                             Edit Profil
                         </a>
                         <a href="{{ route('admin.dashboard') }}"
-                            class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+                            class="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">
                             Kembali ke Dashboard</a>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
             {{-- Form Ubah Password --}}
             <div class="w-full md:w-1/2 px-2 mx-auto mt-10">
                 <div class="bg-white p-8 rounded-2xl shadow-xl">
-                    <h3 class="text-2xl font-bold text-blue-700 mb-6">Ubah Password</h3>
+                    <h3 class="text-2xl font-bold text-green-700 mb-6">Ubah Password</h3>
                     <form action="{{ route('admin.dashboard.password.update') }}" method="POST" class="space-y-6">
                         @csrf
 
@@ -80,7 +80,7 @@
                             <label for="current_password" class="text-sm font-semibold text-gray-700 mb-1">Password
                                 Lama</label>
                             <input type="password" name="current_password" id="current_password" required
-                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                                 placeholder="Masukkan password lama">
                         </div>
 
@@ -89,7 +89,7 @@
                             <label for="new_password" class="text-sm font-semibold text-gray-700 mb-1">Password
                                 Baru</label>
                             <input type="password" name="new_password" id="new_password" required
-                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                                 placeholder="Masukkan password baru">
                         </div>
 
@@ -100,14 +100,14 @@
                                 Baru</label>
                             <input type="password" name="new_password_confirmation" id="new_password_confirmation"
                                 required
-                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                                 placeholder="Ulangi password baru">
                         </div>
 
                         {{-- Tombol --}}
                         <div class="pt-4 text-end">
                             <button type="submit"
-                                class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition cursor-pointer">
+                                class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition cursor-pointer">
                                 Simpan Perubahan
                             </button>
                         </div>

@@ -1,6 +1,13 @@
 <?php
 
+use App\Http\Controllers\Admin\BukuController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\Admin\DashboardController as AdminDashboardController;
+use App\Http\Controllers\Admin\DataController;
+use App\Http\Controllers\Admin\HadistController;
+use App\Http\Controllers\Admin\KitabController;
+use App\Http\Controllers\Admin\PerawiController;
 
 Route::get('/', function () {
     return view('sections.hero');
@@ -13,4 +20,26 @@ Route::get('/hadis', function () {
 });
 Route::get('/result', function () {
     return view('sections.result');
+});
+
+
+Route::middleware(['guest'])->group(function () {
+    Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+    Route::post('/login', [AuthController::class, 'authenticate']);
+    Route::get('/register', [AuthController::class, 'showRegisterForm'])->name('register');
+    Route::post('/register', [AuthController::class, 'store']);
+});
+
+Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
+    Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
+    Route::get('/profile', [AdminDashboardController::class, 'profile'])->name('dashboard.profile');
+    Route::get('/profile/edit', [AdminDashboardController::class, 'edit'])->name('profile.edit');
+    Route::post('/profile/update', [AdminDashboardController::class, 'update'])->name('profile.update');
+    Route::post('/admin/password/update', [AdminDashboardController::class, 'updatePassword'])->name('dashboard.password.update');
+    Route::get('/data', [DataController::class, 'index'])->name('dashboard.data');
+    Route::resource('buku', BukuController::class);
+    Route::resource('kitab', KitabController::class);
+    Route::resource('perawi', PerawiController::class);
+    Route::resource('hadist', HadistController::class);
+    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 });

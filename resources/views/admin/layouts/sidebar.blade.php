@@ -1,12 +1,12 @@
 <!-- Sidebar -->
 <aside
-    class="w-60 -translate-x-48 fixed transition transform ease-in-out duration-1000 z-50 flex h-screen bg-gray-800 ">
+    class="w-60 -translate-x-48 fixed transition transform ease-in-out duration-1000 z-50 flex h-screen bg-green-800 ">
     <!-- open sidebar button -->
     <div
-        class="max-toolbar translate-x-24 scale-x-0 w-full -right-6 transition transform ease-in duration-300 flex items-center justify-between border-4 border-white bg-gray-800  absolute top-2 rounded-full h-12">
+        class="max-toolbar translate-x-24 scale-x-0 w-full -right-6 transition transform ease-in duration-300 flex items-center justify-between border-4 border-white bg-green-800  absolute top-2 rounded-full h-12">
 
         <div class="pl-4 items-center space-x-2 ">
-            <div class="hover:cursor-pointer text-white hover:text-blue-600">
+            <div class="hover:cursor-pointer text-white hover:text-green-600">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
                         <path fill-rule="evenodd"
@@ -16,14 +16,14 @@
                 </a>
             </div>
         </div>
-        <div class="flex items-center space-x-3 group bg-blue-600  pl-10 pr-2 py-1 rounded-full text-white  ">
+        <div class="flex items-center space-x-3 group bg-green-600  pl-10 pr-2 py-1 rounded-full text-white  ">
             <div class="transform ease-in-out duration-300 mr-12">
                 Dashboard
             </div>
         </div>
     </div>
     <div onclick="openNav()"
-        class="hover:cursor-pointer -right-6 transition transform ease-in-out duration-500 flex border-4 border-white bg-gray-800 hover:bg-blue-600 absolute top-2 p-3 rounded-full text-white hover:rotate-45">
+        class="hover:cursor-pointer -right-6 transition transform ease-in-out duration-500 flex border-4 border-white bg-green-800 hover:bg-green-600 absolute top-2 p-3 rounded-full text-white hover:rotate-45">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor"
             class="w-4 h-4">
             <path strokeLinecap="round" strokeLinejoin="round"
@@ -39,13 +39,13 @@
         <a href="{{ route('admin.dashboard.data') }}">
             <x-nav-link-admin iconType="data">Manajemen Data</x-nav-link-admin>
         </a>
-        <a href="{{ route('admin.history.index') }}">
+        <a href="#">
             <x-nav-link-admin iconType="history">History Pencarian</x-nav-link-admin>
         </a>
         <a href="{{ route('admin.dashboard.profile') }}">
             <x-nav-link-admin iconType="profile">Pengaturan</x-nav-link-admin>
         </a>
-        <form action="{{ route('admin.logout') }}" method="post" class="border-t-2 border-gray-700 pt-2">
+        <form action="{{ route('admin.logout') }}" method="post" class="border-t-2 border-green-700 pt-2">
             @csrf
             <button type="submit" class="w-full text-left">
                 <x-nav-link-admin iconType="logout">Logout</x-nav-link-admin>
@@ -61,13 +61,13 @@
         <a href="{{ route('admin.dashboard.data') }}">
             <x-nav-link-mini-admin iconType="data"></x-nav-link-mini-admin>
         </a>
-        <a href="{{ route('admin.history.index') }}">
+        <a href="#">
             <x-nav-link-mini-admin iconType="history"></x-nav-link-mini-admin>
         </a>
         <a href="{{ route('admin.dashboard.profile') }}">
             <x-nav-link-mini-admin iconType="profile"></x-nav-link-mini-admin>
         </a>
-        <form action="{{ route('admin.logout') }}" method="post" class="border-t-2 border-gray-700 pt-2">
+        <form action="{{ route('admin.logout') }}" method="post" class="border-t-2 border-green-700 pt-2">
             @csrf
             <button type="submit" class="w-full text-left">
                 <x-nav-link-mini-admin iconType="logout"></x-nav-link-mini-admin>

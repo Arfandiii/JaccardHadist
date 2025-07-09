@@ -1,5 +1,5 @@
 <div
-    class="hover:cursor-pointer hover:outline hover:ml-4 justify-end pr-5 text-white hover:text-blue-600 w-full bg-gray-800 p-3 rounded-full transform ease-in-out duration-300 flex">
+    class="hover:cursor-pointer hover:outline hover:ml-4 justify-end pr-5 text-white hover:text-green-600 w-full bg-green-900 p-3 rounded-full transform ease-in-out duration-300 flex">
     @switch($iconType)
     @case('dashboard')
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">

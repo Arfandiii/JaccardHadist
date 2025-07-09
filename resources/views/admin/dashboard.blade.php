@@ -3,13 +3,16 @@
 @section('content')
 <!-- CONTENT -->
 <div class="content ml-12 transform ease-in-out duration-500 pt-20 px-2 md:px-5 pb-4">
+    <div class="my-6 flex items-center text-sm text-gray-900 space-x-2">
+        <h2 class="font-bold mb-2 text-center text-3xl">Dashboard Admin</h2>
+    </div>
     <div class="flex flex-wrap w-full my-5 -mx-2">
         <div class="w-full md:w-1/2 lg:w-1/2 p-2">
-            <a href="{{ route('admin.dashboard.data') }}">
+            <a href="#">
                 <div
-                    class="flex items-center flex-row w-full hover:shadow hover:bg-blue-500 bg-blue-600 rounded-md p-3">
+                    class="flex items-center flex-row w-full hover:shadow hover:bg-green-600 bg-green-700 rounded-md p-3">
                     <div
-                        class="flex text-blue-600 items-center bg-white p-2 rounded-md flex-none w-8 h-8 md:w-12 md:h-12 ">
+                        class="flex text-green-700 items-center bg-white p-2 rounded-md flex-none w-8 h-8 md:w-12 md:h-12 ">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
                             stroke="currentColor" class="object-scale-down transition duration-500">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -18,10 +21,10 @@
                     </div>
                     <div class="flex flex-col justify-around flex-grow ml-5 text-white">
                         <div class="whitespace-nowrap">
-                            Total Buku KUHP
+                            Data Buku
                         </div>
                         <div>
-                            {{ $TotalBuku }}
+                            {{-- {{ $TotalBuku }} --}}
                         </div>
                     </div>
                     <div class=" flex items-center flex-none text-white">
@@ -34,11 +37,11 @@
             </a>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 p-2">
-            <a href="{{ route('admin.dashboard.data') }}">
+            <a href="#">
                 <div
-                    class="flex items-center flex-row w-full hover:shadow hover:bg-blue-500 bg-blue-600 rounded-md p-3">
+                    class="flex items-center flex-row w-full hover:shadow hover:bg-green-600 bg-green-700 rounded-md p-3">
                     <div
-                        class="flex text-blue-600 items-center bg-white p-2 rounded-md flex-none w-8 h-8 md:w-12 md:h-12 ">
+                        class="flex text-green-700 items-center bg-white p-2 rounded-md flex-none w-8 h-8 md:w-12 md:h-12 ">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.2"
                             stroke="currentColor" class="object-scale-down transition duration-500">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -47,10 +50,10 @@
                     </div>
                     <div class="flex flex-col justify-around flex-grow ml-5 text-white">
                         <div class="whitespace-nowrap">
-                            Total BAB KUHP
+                            Data Kitab
                         </div>
                         <div>
-                            {{ $TotalBAB }}
+                            {{-- {{ $TotalBAB }} --}}
                         </div>
                     </div>
                     <div class=" flex items-center flex-none text-white">
@@ -63,11 +66,11 @@
             </a>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 p-2">
-            <a href="{{ route('admin.dashboard.data') }}">
+            <a href="#">
                 <div
-                    class="flex items-center flex-row w-full hover:shadow hover:bg-blue-500 bg-blue-600 rounded-md p-3">
+                    class="flex items-center flex-row w-full hover:shadow hover:bg-green-600 bg-green-700 rounded-md p-3">
                     <div
-                        class="flex text-blue-600 items-center bg-white p-2 rounded-md flex-none w-8 h-8 md:w-12 md:h-12 ">
+                        class="flex text-green-700 items-center bg-white p-2 rounded-md flex-none w-8 h-8 md:w-12 md:h-12 ">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.2"
                             stroke="currentColor" class="object-scale-down transition duration-500">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -76,10 +79,10 @@
                     </div>
                     <div class="flex flex-col justify-around flex-grow ml-5 text-white">
                         <div class="whitespace-nowrap">
-                            Total Pasal KUHP
+                            Data Hadist
                         </div>
                         <div>
-                            {{ $TotalPasal }}
+                            {{-- {{ $TotalPasal }} --}}
                         </div>
                     </div>
                     <div class=" flex items-center flex-none text-white">
@@ -92,11 +95,11 @@
             </a>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 p-2">
-            <a href="{{ route('admin.history.index') }}">
+            <a href="#">
                 <div
-                    class="flex items-center flex-row w-full hover:shadow hover:bg-blue-500 bg-blue-600 rounded-md p-3">
+                    class="flex items-center flex-row w-full hover:shadow hover:bg-green-600 bg-green-700 rounded-md p-3">
                     <div
-                        class="flex text-blue-600 items-center bg-white p-2 rounded-md flex-none w-8 h-8 md:w-12 md:h-12 ">
+                        class="flex text-green-700 items-center bg-white p-2 rounded-md flex-none w-8 h-8 md:w-12 md:h-12 ">
                         <svg viewBox="0 0 512 512" class="object-scale-down transition duration-500" fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -105,10 +108,10 @@
                     </div>
                     <div class="flex flex-col justify-around flex-grow ml-5 text-white">
                         <div class="whitespace-nowrap">
-                            Total Pencarian Pasal (Query)
+                            Data Riwayat Pencarian
                         </div>
                         <div>
-                            {{ $TotalQuery }}
+                            {{-- {{ $TotalQuery }} --}}
                         </div>
                     </div>
                     <div class=" flex items-center flex-none text-white">
@@ -134,7 +137,7 @@
     </div>
 
 </div>
-<script>
+{{-- <script>
     document.addEventListener('DOMContentLoaded', function() {
         const ctx = document.getElementById('historyChart').getContext('2d');
         
@@ -190,5 +193,5 @@
             }
         });
     });
-</script>
+</script> --}}
 @endsection
