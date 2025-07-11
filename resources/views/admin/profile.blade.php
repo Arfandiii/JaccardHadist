@@ -19,10 +19,15 @@
     </div>
     @endif
     <div class="p-6 mx-auto bg-white rounded-lg shadow-md my-10">
-        <h2 class=" font-bold mb-4 text-center text-5xl">Profile</h2>
+        <div class="mb-6 flex items-center text-sm text-gray-900 space-x-2">
+            <a href="{{ route('admin.dashboard') }}" class="text-blue-600 hover:underline font-medium">&larr;
+                Kembali</a>
+            <span>/</span>
+            <h2 class="font-bold mb-2 text-center text-3xl">Profile</h2>
+        </div>
         <div class="flex flex-wrap w-full my-5 -mx-2 flex-col">
             <div class="w-full md:w-2/3 lg:w-1/2 p-2 mx-auto">
-                <div class="bg-white p-8 rounded-2xl shadow-xl">
+                <div class="bg-white p-8 rounded-2xl shadow-xl border border-green-200">
                     <!-- Header -->
                     <div class="flex items-center mb-8">
                         <div class="w-28 h-28 rounded-full overflow-hidden border-4 border-green-200 shadow-sm mr-6">
@@ -70,7 +75,7 @@
 
             {{-- Form Ubah Password --}}
             <div class="w-full md:w-1/2 px-2 mx-auto mt-10">
-                <div class="bg-white p-8 rounded-2xl shadow-xl">
+                <div class="bg-white p-8 rounded-2xl shadow-xl border border-green-200">
                     <h3 class="text-2xl font-bold text-green-700 mb-6">Ubah Password</h3>
                     <form action="{{ route('admin.dashboard.password.update') }}" method="POST" class="space-y-6">
                         @csrf

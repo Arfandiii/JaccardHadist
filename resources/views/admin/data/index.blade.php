@@ -11,6 +11,22 @@
             <span>/</span>
             <h2 class="font-bold mb-2 text-center text-3xl">Data</h2>
         </div>
+        {{-- Massage --}}
+        @if (session()->has('success'))
+        <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg" role="alert">
+            <p>{{ session('success')}}</p>
+        </div>
+        @endif
+        @if(session('info'))
+        <div class="bg-yellow-500 text-white p-3 rounded mb-4">
+            {{ session('info') }}
+        </div>
+        @endif
+        @if (session()->has('error'))
+        <div class="p-3 mb-4 text-sm text-red-700 bg-red-100 rounded-lg" role="alert">
+            <p>{{ session('error')}}</p>
+        </div>
+        @endif
         <!-- Summary Cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             <!-- Buku Card -->

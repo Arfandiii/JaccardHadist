@@ -3,6 +3,10 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Buku;
+use App\Models\Hadist;
+use App\Models\Kitab;
+use App\Models\Query;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
@@ -14,7 +18,11 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        return view('admin.dashboard');
+        $totalBuku = Buku::count();
+        $totalKitab = Kitab::count();
+        $totalHadist = Hadist::count();
+        $totalQuery = Query::count();
+        return view('admin.dashboard', compact('totalBuku', 'totalKitab', 'totalHadist', 'totalQuery'));
     }
 
     /**

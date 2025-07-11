@@ -60,7 +60,7 @@ class PreprocessingController extends Controller
         }
     
         // Tambahkan dokumen query dengan format yang sama
-        $query = "Terpidana melarikan diri dari tempat pidana penjara.";
+        $query = "amal niat rasulullah berwudhu mukmin kuat cucinya.";
         $preQuery = PreprocessingText::preprocessTextDetailed($query);
     
         $detailed[] = [
@@ -84,23 +84,23 @@ class PreprocessingController extends Controller
         $documentsdetailed = $this->preprocessHadisDocumentsDetailed();
         
         // Contoh query yang akan diproses
-        $query = "";
+        $query = "amal niat rasulullah berwudhu mukmin kuat cucinya.";
         $preprocessedQuery = PreprocessingText::preprocessText($query);
         
         // TF
-        // $tfTable = JaccardSimilarity::calculateTermFrequencies($documents, $preprocessedQuery);
+        $tfTable = JaccardSimilarity::calculateTermFrequencies($documents, $preprocessedQuery);
         
         // // TF Weight
-        // $tfWeightTable = JaccardSimilarity::calculateTFWeight($tfTable, count($documents));
+        $tfWeightTable = JaccardSimilarity::calculateTFWeight($tfTable, count($documents));
         
         // // IDF
-        // $idfTable = JaccardSimilarity::calculateIDF($tfTable, count($documents));
+        $idfTable = JaccardSimilarity::calculateIDF($tfTable, count($documents));
 
         // // TF-IDF
-        // $tfidfTable = JaccardSimilarity::calculateTFIDF($tfWeightTable, $idfTable, count($documents));
+        $tfidfTable = JaccardSimilarity::calculateTFIDF($tfWeightTable, $idfTable, count($documents));
         
         // // Cosine Similarity
-        // $cosineSimilarities = JaccardSimilarity::JaccardSimilarity($tfidfTable, count($documents));
+        $jaccardScores = JaccardSimilarity::calculateJaccardSimilarity($tfidfTable, count($documents));
         
         return view('sections.result', compact(
             'documentsHadis',
@@ -108,11 +108,11 @@ class PreprocessingController extends Controller
             'documentsdetailed',
             'query',
             'preprocessedQuery',
-            // 'tfTable',
-            // 'tfWeightTable',
-            // 'idfTable',
-            // 'tfidfTable',
-            // 'cosineSimilarities',
+            'tfTable',
+            'tfWeightTable',
+            'idfTable',
+            'tfidfTable',
+            'jaccardScores',
         ));
     }
 }

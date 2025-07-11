@@ -6,8 +6,10 @@ use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Admin\DashboardController as AdminDashboardController;
 use App\Http\Controllers\Admin\DataController;
 use App\Http\Controllers\Admin\HadistController;
+use App\Http\Controllers\Admin\HistoryQueryController;
 use App\Http\Controllers\Admin\KitabController;
 use App\Http\Controllers\Admin\PerawiController;
+use App\Http\Controllers\PreprocessingController;
 
 Route::get('/', function () {
     return view('sections.hero');
@@ -18,9 +20,7 @@ Route::get('/buku', function () {
 Route::get('/hadis', function () {
     return view('sections.hadist');
 });
-Route::get('/result', function () {
-    return view('sections.result');
-});
+Route::get('/result', [PreprocessingController::class, 'resultPreprocessing'])->name('result');
 
 
 Route::middleware(['guest'])->group(function () {
@@ -41,5 +41,6 @@ Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () 
     Route::resource('kitab', KitabController::class);
     Route::resource('perawi', PerawiController::class);
     Route::resource('hadist', HadistController::class);
+    Route::resource('history', HistoryQueryController::class);
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 });

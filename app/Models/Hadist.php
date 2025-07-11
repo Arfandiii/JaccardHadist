@@ -18,4 +18,9 @@ class Hadist extends Model
     {
         return $this->belongsTo(Perawi::class);
     }
+
+    public function documentTerms()
+    {
+        return $this->hasMany(DocumentTerm::class);
+    }
 }

@@ -8,7 +8,7 @@
     </div>
     <div class="flex flex-wrap w-full my-5 -mx-2">
         <div class="w-full md:w-1/2 lg:w-1/2 p-2">
-            <a href="#">
+            <a href="{{ route('admin.dashboard.data', ['tipe' => 'buku']) }}">
                 <div
                     class="flex items-center flex-row w-full hover:shadow hover:bg-green-600 bg-green-700 rounded-md p-3">
                     <div
@@ -24,7 +24,7 @@
                             Data Buku
                         </div>
                         <div>
-                            {{-- {{ $TotalBuku }} --}}
+                            {{ $totalBuku }}
                         </div>
                     </div>
                     <div class=" flex items-center flex-none text-white">
@@ -37,7 +37,7 @@
             </a>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 p-2">
-            <a href="#">
+            <a href="{{ route('admin.dashboard.data', ['tipe' => 'kitab']) }}">
                 <div
                     class="flex items-center flex-row w-full hover:shadow hover:bg-green-600 bg-green-700 rounded-md p-3">
                     <div
@@ -53,7 +53,7 @@
                             Data Kitab
                         </div>
                         <div>
-                            {{-- {{ $TotalBAB }} --}}
+                            {{ $totalKitab }}
                         </div>
                     </div>
                     <div class=" flex items-center flex-none text-white">
@@ -66,7 +66,7 @@
             </a>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 p-2">
-            <a href="#">
+            <a href="{{ route('admin.dashboard.data', ['tipe' => 'hadist']) }}">
                 <div
                     class="flex items-center flex-row w-full hover:shadow hover:bg-green-600 bg-green-700 rounded-md p-3">
                     <div
@@ -82,7 +82,7 @@
                             Data Hadist
                         </div>
                         <div>
-                            {{-- {{ $TotalPasal }} --}}
+                            {{ $totalHadist }}
                         </div>
                     </div>
                     <div class=" flex items-center flex-none text-white">
@@ -95,7 +95,7 @@
             </a>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 p-2">
-            <a href="#">
+            <a href="{{ route('admin.history.index') }}">
                 <div
                     class="flex items-center flex-row w-full hover:shadow hover:bg-green-600 bg-green-700 rounded-md p-3">
                     <div
@@ -111,7 +111,7 @@
                             Data Riwayat Pencarian
                         </div>
                         <div>
-                            {{-- {{ $TotalQuery }} --}}
+                            {{ $totalQuery }}
                         </div>
                     </div>
                     <div class=" flex items-center flex-none text-white">

@@ -44,7 +44,7 @@
                             <!-- View Button -->
                             <div class="relative before:content-[attr(data-tip)] before:absolute before:px-2 before:py-1 before:left-1/2 before:-top-3 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:bg-gray-700 before:text-white before:rounded-md before:opacity-0 before:transition-all after:absolute after:left-1/2 after:-top-3 after:h-0 after:w-0 after:-translate-x-1/2 after:border-8 after:border-t-gray-700 after:border-l-transparent after:border-b-transparent after:border-r-transparent after:opacity-0 after:transition-all hover:before:opacity-100 hover:after:opacity-100"
                                 data-tip="Manage Hadist">
-                                <a href="{{ route('admin.hadist.show', $hadist->id) }}" class="flex items-center justify-center w-9 h-9 text-white
+                                <a href="{{ route('admin.hadist.show', $hadist->id) }}" class="flex items-center justify-center w-8 h-8 text-white
                                                         transition-colors duration-150 rounded-full bg-blue-600
                                                         hover:bg-blue-500">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -57,8 +57,8 @@
                             </div>
                             <!-- Edit Button -->
                             <div class="relative before:content-[attr(data-tip)] before:absolute before:px-2 before:py-1 before:left-1/2 before:-top-3 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:bg-gray-700 before:text-white before:rounded-md before:opacity-0 before:transition-all after:absolute after:left-1/2 after:-top-3 after:h-0 after:w-0 after:-translate-x-1/2 after:border-8 after:border-t-gray-700 after:border-l-transparent after:border-b-transparent after:border-r-transparent after:opacity-0 after:transition-all hover:before:opacity-100 hover:after:opacity-100"
-                                data-tip="Edit Buku">
-                                <a href="{{ route('admin.hadist.show', $hadist->id) }}" class=" flex
+                                data-tip="Edit Hadist">
+                                <a href="{{ route('admin.hadist.edit', $hadist->id) }}" class=" flex
                                                         items-center justify-center w-8 h-8 text-white
                                                         transition-colors duration-150 rounded-full bg-green-600
                                                         hover:bg-green-500">
@@ -76,10 +76,10 @@
                                 @csrf
                                 @method('DELETE')
                                 <div class="relative before:content-[attr(data-tip)] before:absolute before:px-2 before:py-1 before:left-1/2 before:-top-3 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:bg-gray-700 before:text-white before:rounded-md before:opacity-0 before:transition-all after:absolute after:left-1/2 after:-top-3 after:h-0 after:w-0 after:-translate-x-1/2 after:border-8 after:border-t-gray-700 after:border-l-transparent after:border-b-transparent after:border-r-transparent after:opacity-0 after:transition-all hover:before:opacity-100 hover:after:opacity-100"
-                                    data-tip="Delete Buku">
+                                    data-tip="Delete Hadist">
                                     <button type="submit"
-                                        onclick="return confirm('Apakah Anda yakin ingin menghapus data buku ini?')"
-                                        class="flex items-center justify-center w-8 h-8 text-white transition-colors duration-150 rounded-full bg-red-600 hover:bg-red-500">
+                                        onclick="return confirm('Apakah Anda yakin ingin menghapus data hadist ini?')"
+                                        class="cursor-pointer flex items-center justify-center w-8 h-8 text-white transition-colors duration-150 rounded-full bg-red-600 hover:bg-red-500">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-5 fill-current">
                                             <path fill-rule="evenodd"
@@ -101,7 +101,7 @@
         </table>
     </div>
     <div class="mt-4">
-        {{ $data->links() }}
+        {{ $data->appends(['tipe' => $tipe])->links() }}
     </div>
 </div>
 @endif

@@ -80,7 +80,7 @@
         </table>
     </div>
     <div class="mt-4">
-        {{ $data->links() }}
+        {{ $data->appends(['tipe' => $tipe])->links() }}
     </div>
 </div>
 @endif
