@@ -4,7 +4,7 @@
         <h3 class="text-2xl font-bold text-gray-800">Data Hadist</h3>
         <div class="flex items-center gap-2">
             <a href="{{ route('admin.hadist.create') }}"
-                class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+                class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">
                 <i class="fas fa-plus mr-2"></i> Tambah Hadist
             </a>
             <!-- Tombol X -->

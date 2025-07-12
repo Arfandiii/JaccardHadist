@@ -27,7 +27,7 @@ class DataController extends Controller
         $data = null;
     
         if ($tipe === 'hadist') {
-            $data = Hadist::with(['kitab', 'perawi'])->paginate(10);
+            $data = Hadist::with(['kitab', 'perawi'])->paginate(20);
         } elseif ($tipe === 'kitab') {
             $data = Kitab::paginate(10);
         } elseif ($tipe === 'buku') {

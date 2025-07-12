@@ -11,14 +11,6 @@ use Illuminate\Http\Request;
 class HadistController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
      * Show the form for creating a new resource.
      */
     public function create()
@@ -125,7 +117,7 @@ class HadistController extends Controller
             $hadist = Hadist::findOrFail($id);
             $hadist->delete();
             return redirect()->route('admin.dashboard.data', ['tipe' => $tipe])
-            ->with('success', 'Hadist berhasil dihapus.');
+            ->with('success', 'Data Hadist berhasil dihapus.');
         } catch (\Exception $e) {
             return redirect()->route('admin.dashboard.data')
             ->with('error', 'Terjadi kesalahan saat menghapus Hadist: ' . $e->getMessage());

@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('pengarang');
             $table->string('tahun_terbit');
             $table->integer('stock');
+            $table->string('photo')->nullable();
             $table->timestamps();
         });
     }

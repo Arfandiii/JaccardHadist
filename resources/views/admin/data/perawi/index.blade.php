@@ -4,7 +4,7 @@
         <h3 class="text-2xl font-bold text-gray-800">Data Perawi</h3>
         <div class="flex items-center gap-2">
             <a href="{{ route('admin.perawi.create') }}"
-                class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+                class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">
                 <i class="fas fa-plus mr-2"></i> Tambah Perawi
             </a>
             <!-- Tombol X -->
@@ -36,8 +36,8 @@
                         <div class="flex space-x-2 justify-center">
                             <!-- Edit Button -->
                             <div class="relative before:content-[attr(data-tip)] before:absolute before:px-2 before:py-1 before:left-1/2 before:-top-3 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:bg-gray-700 before:text-white before:rounded-md before:opacity-0 before:transition-all after:absolute after:left-1/2 after:-top-3 after:h-0 after:w-0 after:-translate-x-1/2 after:border-8 after:border-t-gray-700 after:border-l-transparent after:border-b-transparent after:border-r-transparent after:opacity-0 after:transition-all hover:before:opacity-100 hover:after:opacity-100"
-                                data-tip="Edit Buku">
-                                <a href="{{ route('admin.perawi.show', $perawi->id) }}" class=" flex
+                                data-tip="Edit Perawi">
+                                <a href="{{ route('admin.perawi.edit', $perawi->id) }}" class=" flex
                                                         items-center justify-center w-8 h-8 text-white
                                                         transition-colors duration-150 rounded-full bg-green-600
                                                         hover:bg-green-500">
@@ -55,10 +55,10 @@
                                 @csrf
                                 @method('DELETE')
                                 <div class="relative before:content-[attr(data-tip)] before:absolute before:px-2 before:py-1 before:left-1/2 before:-top-3 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:bg-gray-700 before:text-white before:rounded-md before:opacity-0 before:transition-all after:absolute after:left-1/2 after:-top-3 after:h-0 after:w-0 after:-translate-x-1/2 after:border-8 after:border-t-gray-700 after:border-l-transparent after:border-b-transparent after:border-r-transparent after:opacity-0 after:transition-all hover:before:opacity-100 hover:after:opacity-100"
-                                    data-tip="Delete Buku">
+                                    data-tip="Delete Perawi">
                                     <button type="submit"
-                                        onclick="return confirm('Apakah Anda yakin ingin menghapus data buku ini?')"
-                                        class="flex items-center justify-center w-8 h-8 text-white transition-colors duration-150 rounded-full bg-red-600 hover:bg-red-500">
+                                        onclick="return confirm('Apakah Anda yakin ingin menghapus data perawi ini?')"
+                                        class="cursor-pointer flex items-center justify-center w-8 h-8 text-white transition-colors duration-150 rounded-full bg-red-600 hover:bg-red-500">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-5 fill-current">
                                             <path fill-rule="evenodd"
