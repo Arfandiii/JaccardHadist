@@ -60,7 +60,7 @@ class PreprocessingController extends Controller
         }
     
         // Tambahkan dokumen query dengan format yang sama
-        $query = "amal niat rasulullah berwudhu mukmin kuat cucinya.";
+        $query = "amal niat rasulullah bersabda islam salat iman orang puasa haji.";
         $preQuery = PreprocessingText::preprocessTextDetailed($query);
     
         $detailed[] = [
@@ -84,7 +84,7 @@ class PreprocessingController extends Controller
         $documentsdetailed = $this->preprocessHadisDocumentsDetailed();
         
         // Contoh query yang akan diproses
-        $query = "amal niat rasulullah berwudhu mukmin kuat cucinya.";
+        $query = "amal niat rasulullah bersabda islam salat iman orang puasa haji.";
         $preprocessedQuery = PreprocessingText::preprocessText($query);
         
         // TF
