@@ -34,5 +34,7 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'invitation_code' => env('INVITATION_CODE', 'DAFTARADMIN123'),
+
 
 ];

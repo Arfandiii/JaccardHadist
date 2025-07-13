@@ -120,7 +120,7 @@ class JaccardSimilarity
             $row["Q"] = round($tfWeightQ * $idf, 4);
 
             $tfidfTable[] = $row;
-        }
+        }   
 
         return $tfidfTable;
     }

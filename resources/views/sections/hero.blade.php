@@ -8,64 +8,55 @@
             PESANTREN DARUSSALAM<br>
             <span class="text-yellow-500">SENGKUBANG</span>
         </h1>
-        <div class="relative max-w-lg mx-auto">
-            <div class="absolute inset-y-0 left-0 pl-4 flex items-center text-green-600 font-medium">
-                <span class="bg-green-100 px-3 py-1 rounded-full">Semua Kategori</span>
-            </div>
-            <input type="text" placeholder="Cari buku atau hadis..."
-                class="border border-green-300 rounded-full w-full p-4 pl-40 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-400 shadow transition">
+        <div class="max-w-lg mx-auto">
+            <input type="text" placeholder="Cari hadist..."
+                class="border border-green-300 rounded-full w-full p-4 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-400 shadow transition">
         </div>
     </div>
 
     <!-- Book recommendations -->
-    <h2 class="text-2xl font-bold text-green-700 mb-8 text-center">Rekomendasi Buku</h2>
+    <h2 class="text-2xl font-bold text-green-700 mb-8 text-center">Rekomendasi Buku Terbaru</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-        @foreach([
-        [
-        'title' => 'Buku Fikih Dasar',
-        'desc' => 'Panduan lengkap mengenai dasar-dasar fikih untuk santri pemula di pesantren.',
-        'img' => 'https://flowbite.com/docs/images/blog/image-1.jpg'
-        ],
-        [
-        'title' => 'Hadis Pilihan Santri',
-        'desc' => 'Kumpulan hadis-hadis pilihan yang sering dipelajari dan diamalkan di lingkungan pesantren.',
-        'img' => 'https://flowbite.com/docs/images/blog/image-1.jpg'
-        ],
-        [
-        'title' => 'Sejarah Pesantren Nusantara',
-        'desc' => 'Buku yang membahas perkembangan dan peran pesantren di Indonesia dari masa ke masa.',
-        'img' => 'https://flowbite.com/docs/images/blog/image-1.jpg'
-        ],
-        [
-        'title' => 'Kitab Akhlak Mulia',
-        'desc' => 'Materi akhlak dan adab yang diajarkan untuk membentuk karakter santri yang berakhlak mulia.',
-        'img' => 'https://flowbite.com/docs/images/blog/image-1.jpg'
-        ]
-        ] as $book)
+        @foreach($buku as $buku)
         <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col">
+            class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 transition hover:shadow-xl hover:scale-[1.02] duration-300 flex flex-col">
             <a href="#">
-                <img class="rounded-t-lg" src="{{ $book['img'] }}" alt="" />
+                <img class="h-48 w-full object-cover" src="{{ $buku['photo'] }}" alt="Cover Buku {{ $buku['judul'] }}">
             </a>
             <div class="p-5 flex flex-col flex-1">
+                {{-- Badge pengarang dan tahun terbit --}}
+                <span
+                    class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded mb-2 w-fit">
+                    {{ $buku['pengarang'] }} • {{ $buku['tahun_terbit'] }}
+                </span>
+
+                {{-- Judul Buku --}}
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        {{ $book['title'] }}
+                    <h5 class="text-lg font-semibold text-gray-800 hover:text-green-600 transition mb-1 truncate">
+                        {{ $buku['judul'] }}
                     </h5>
                 </a>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 flex-1">
-                    {{ $book['desc'] }}
+
+                {{-- Penerbit --}}
+                <p class="text-sm text-gray-500 mb-4 italic">
+                    {{ $buku['penerbit'] }}
                 </p>
-                <div class="mt-auto">
+
+                {{-- Tombol --}}
+                <div class="mt-auto flex items-center justify-between">
                     <a href="#"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
-                        Baca selengkapnya
-                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400">
+                        Baca Selengkapnya
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </a>
+
+                    {{-- Stok --}}
+                    <span class="text-xs text-gray-500 italic ml-2">
+                        Stok: {{ $buku['stock'] }}
+                    </span>
                 </div>
             </div>
         </div>

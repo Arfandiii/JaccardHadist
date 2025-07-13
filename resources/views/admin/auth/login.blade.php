@@ -6,7 +6,7 @@
 
         <div>
             <h2 class="text-center text-3xl font-extrabold text-green-700">Sistem Temu Kembali Informasi</h2>
-            <p class="text-center text-gray-600">Pencarian Hadist</p>
+            <p class="text-center text-gray-600">Login Admin - Pencarian Hadist</p>
         </div>
         @if (session()->has('loginError'))
         <div class="bg-red-100 border border-red-400 text-red-800 px-4 py-3 rounded relative" role="alert">

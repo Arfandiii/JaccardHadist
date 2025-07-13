@@ -10,16 +10,11 @@ use App\Http\Controllers\Admin\HistoryQueryController;
 use App\Http\Controllers\Admin\KitabController;
 use App\Http\Controllers\Admin\PerawiController;
 use App\Http\Controllers\PreprocessingController;
+use App\Http\Controllers\PageController;
 
-Route::get('/', function () {
-    return view('sections.hero');
-});
-Route::get('/buku', function () {
-    return view('sections.books');
-});
-Route::get('/hadis', function () {
-    return view('sections.hadist');
-});
+Route::get('/', [PageController::class, 'hero'])->name('hero');
+Route::get('/buku', [PageController::class, 'buku'])->name('buku');
+Route::get('/hadist', [PageController::class, 'hadist'])->name('hadist');
 Route::get('/result', [PreprocessingController::class, 'resultPreprocessing'])->name('result');
 
 

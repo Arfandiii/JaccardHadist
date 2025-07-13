@@ -3,28 +3,54 @@
 <div class="max-w-7xl mx-auto mb-12">
     <!-- Book grid -->
     <h2 class="text-2xl font-bold mb-6 text-gray-800">Daftar Buku</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        @for ($i = 1; $i <= 8; $i++) <div
-            class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col overflow-hidden">
-            <div class="h-40 bg-gradient-to-br from-green-200 to-green-400 flex items-center justify-center">
-                <svg class="w-16 h-16 text-green-500" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path
-                        d="M4 19.5A2.5 2.5 0 0 0 6.5 22h11a2.5 2.5 0 0 0 2.5-2.5V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v13.5z" />
-                    <path d="M8 2v4" />
-                    <path d="M16 2v4" />
-                </svg>
-            </div>
-            <div class="p-4 flex-1 flex flex-col">
-                <h3 class="text-lg font-semibold text-gray-700 mb-2">Judul Buku {{ $i }}</h3>
-                <p class="text-gray-500 text-sm mb-4 flex-1">Deskripsi singkat buku ini. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.</p>
-                <a href="#"
-                    class="mt-auto inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 text-sm text-center">Lihat
-                    Detail</a>
-            </div>
+    <div class="mb-8">
+        {{ $buku->links() }}
     </div>
-    @endfor
-</div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        @foreach($buku as $buku)
+        <div
+            class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 transition hover:shadow-xl hover:scale-[1.02] duration-300 flex flex-col">
+            <a href="#">
+                <img class="h-48 w-full object-cover" src="{{ $buku['photo'] }}" alt="Cover Buku {{ $buku['judul'] }}">
+            </a>
+            <div class="p-5 flex flex-col flex-1">
+                {{-- Badge pengarang dan tahun terbit --}}
+                <span
+                    class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded mb-2 w-fit">
+                    {{ $buku['pengarang'] }} • {{ $buku['tahun_terbit'] }}
+                </span>
+
+                {{-- Judul Buku --}}
+                <a href="#">
+                    <h5 class="text-lg font-semibold text-gray-800 hover:text-green-600 transition mb-1 truncate">
+                        {{ $buku['judul'] }}
+                    </h5>
+                </a>
+
+                {{-- Penerbit --}}
+                <p class="text-sm text-gray-500 mb-4 italic">
+                    {{ $buku['penerbit'] }}
+                </p>
+
+                {{-- Tombol --}}
+                <div class="mt-auto flex items-center justify-between">
+                    <a href="#"
+                        class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400">
+                        Baca Selengkapnya
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+
+                    {{-- Stok --}}
+                    <span class="text-xs text-gray-500 italic ml-2">
+                        Stok: {{ $buku['stock'] }}
+                    </span>
+                </div>
+            </div>
+        </div>
+        @endforeach
+    </div>
 </div>
 @endsection

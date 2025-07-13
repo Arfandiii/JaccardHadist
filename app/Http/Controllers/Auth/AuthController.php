@@ -8,6 +8,8 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\Rule;
+use Illuminate\Support\Facades\Config;
 
 class AuthController extends Controller
 {    
@@ -38,12 +40,23 @@ class AuthController extends Controller
 
     protected function validator(array $data)
     {
-        return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
-            'username' => ['required', 'string', 'max:255', 'unique:users'],
-            'email' => ['required', 'string', 'email:dns', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
-        ]);
+        return Validator::make(
+            $data,
+            [
+                'name' => ['required', 'string', 'max:255'],
+                'username' => ['required', 'string', 'max:255', 'unique:users'],
+                'email' => ['required', 'string', 'email:dns', 'max:255', 'unique:users'],
+                'password' => ['required', 'string', 'min:8', 'confirmed'],
+                // 💡 cek bahwa kode yang dimasukkan ada di daftar yang diperbolehkan
+                'invitation_code' => [
+                    'required',
+                    Rule::in([Config::get('services.invitation_code')]),
+                ],
+            ],
+            [
+            'invitation_code.in' => 'Kode undangan salah atau tidak valid.',
+            ]
+        );
     }
 
     public function store(Request $request)
