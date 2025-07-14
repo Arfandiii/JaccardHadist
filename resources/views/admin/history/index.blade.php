@@ -33,6 +33,19 @@
                     <div class="flex justify-between mb-5">
                         <h1 class="whitespace-nowrap font-bold text-2xl text-gray-800">Data History Pencarian</h1>
                     </div>
+                    @if ($DataHistory->count())
+                    <div class="flex justify-end mb-4">
+                        <form action="{{ route('admin.history.destroyAll') }}" method="POST"
+                            onsubmit="return confirm('Yakin ingin menghapus semua data history?')">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit"
+                                class="bg-red-600 hover:bg-red-500 text-white px-4 py-2 rounded shadow cursor-pointer">
+                                Hapus Semua History
+                            </button>
+                        </form>
+                    </div>
+                    @endif
                     <div class="overflow-x-auto mb-4">
                         <table class="min-w-full bg-white">
                             <thead class="text-gray-700">

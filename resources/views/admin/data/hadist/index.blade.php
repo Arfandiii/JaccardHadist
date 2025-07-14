@@ -1,5 +1,11 @@
 @if(isset($data) && $tipe === 'hadist')
 <div id="hadist-table" class="mt-8 bg-white shadow-md rounded-lg p-6">
+    @if(!$isPreprocessed)
+    <a href="{{ route('preprocess.hadist') }}"
+        class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded shadow transition duration-200 mb-4 mt-6">
+        Preprocessing Data Hadist
+    </a>
+    @endif
     <div class="flex items-center justify-between mb-4">
         <h3 class="text-2xl font-bold text-gray-800">Data Hadist</h3>
         <div class="flex items-center gap-2">

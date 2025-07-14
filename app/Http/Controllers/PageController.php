@@ -13,13 +13,13 @@ class PageController extends Controller
         $buku = Buku::paginate(12);
         return view('sections.books', compact('buku'));
     }
-
+    
     public function hadist()
     {
-        $hadist = Hadist::paginate(10);
-        return view('sections.hadist', compact('hadist'));
+        $results = Hadist::paginate(10);
+        return view('sections.hadist', compact('results'));
     }
-
+    
     public function hero(){
         $buku = Buku::orderBy('created_at', 'desc')->take(4)->get();
         return view('sections.hero', compact('buku'));

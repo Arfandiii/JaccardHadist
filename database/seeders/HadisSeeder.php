@@ -5933,7 +5933,3228 @@ class HadisSeeder extends Seeder
                 'perawi_id'   => 10,   // Abu Dzar
                 'created_at'  => Carbon::now(),
                 'updated_at'  => Carbon::now(),
-            ]
+            ],
+            
+            [
+                'no_hadist'   => 1,
+                'isi_hadist'  => 'Rasulullah bersabda, “Permudahlah dan jangan mempersulit, berilah kabar gembira dan jangan membuat orang lari.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 2,
+                'isi_hadist'  => 'Rasulullah bersabda, “Mukmin yang kuat lebih baik dan lebih dicintai Allah daripada mukmin yang lemah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 3,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang terbaik terhadap keluarganya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,   // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 4,
+                'isi_hadist'  => 'Rasulullah bersabda, “Islam dibangun atas lima perkara: syahadat, shalat, zakat, puasa, dan haji.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 6,    // Abdullah bin Umar
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 5,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa yang beriman kepada Allah dan hari akhir, hendaklah ia berkata baik atau diam.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 6,
+                'isi_hadist'  => 'Rasulullah bersabda, “Shalatlah kalian sebelum matahari terbenam.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,   // Jabir bin Abdullah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 7,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak boleh ada bahaya dan tidak boleh membahayakan orang lain.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 16,   // Abu Said Al-Khudri
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 8,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sedekah tidak akan mengurangi harta.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 9,
+                'isi_hadist'  => 'Rasulullah bersabda, “Perumpamaan orang mukmin yang membaca Al-Qur’an seperti buah utrujjah, baunya harum dan rasanya enak.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 14,   // Abu Musa Al-Asy’ari
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 10,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak masuk surga orang yang ada dalam hatinya kesombongan sebesar biji sawi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas’ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 11,
+                'isi_hadist'  => 'Rasulullah bersabda, “Bila salah seorang di antara kalian bersin, hendaklah mengucapkan ‘Alhamdulillah’.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 12,
+                'isi_hadist'  => 'Rasulullah bersabda, “Mudahkanlah urusan, jangan persulit.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 13,
+                'isi_hadist'  => 'Rasulullah bersabda, “Seorang muslim adalah saudara bagi muslim lainnya, tidak menzalimi dan tidak menyerahkannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 14,
+                'isi_hadist'  => 'Rasulullah bersabda, “Takutlah kepada Allah di mana pun kamu berada.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 10,   // Abu Dzar Al-Ghifari
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 15,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak beriman salah seorang di antara kalian sampai ia mencintai saudaranya sebagaimana ia mencintai dirinya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 16,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tanda orang munafik ada tiga: jika berbicara berdusta, jika berjanji mengingkari, dan jika diberi amanah berkhianat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 17,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah itu Maha Lembut dan mencintai kelembutan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,   // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 18,
+                'isi_hadist'  => 'Rasulullah bersabda, “Kebersihan adalah sebagian dari iman.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 19,
+                'isi_hadist'  => 'Rasulullah bersabda, “Jaga Allah, niscaya Dia akan menjagamu.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 20,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tangan di atas lebih baik daripada tangan di bawah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 21,
+                'isi_hadist'  => 'Rasulullah bersabda, “Orang yang menunjukkan kepada kebaikan, ia mendapatkan pahala seperti orang yang melakukannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 22,
+                'isi_hadist'  => 'Rasulullah bersabda, “Berlemah lembutlah kalian, karena kelembutan tidak ada pada sesuatu melainkan akan memperindahnya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 23,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya kejujuran membawa kepada kebaikan, dan kebaikan membawa ke surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas’ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 24,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa menghilangkan kesulitan seorang mukmin di dunia, maka Allah akan menghilangkan kesulitannya di hari kiamat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 25,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa menempuh jalan untuk mencari ilmu, maka Allah akan memudahkan baginya jalan menuju surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 26,
+                'isi_hadist'  => 'Rasulullah bersabda, “Hak seorang muslim atas muslim lainnya ada enam.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 27,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya darah kalian, harta kalian, dan kehormatan kalian adalah haram atas kalian.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,   // Jabir bin Abdullah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 28,
+                'isi_hadist'  => 'Rasulullah bersabda, “Amalan yang paling dicintai Allah adalah yang paling rutin meskipun sedikit.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,   // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 29,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak termasuk golongan kami orang yang tidak menyayangi yang lebih muda dan tidak menghormati yang lebih tua.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 30,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak akan masuk surga orang yang memutus tali silaturahmi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 31,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sedikit bicara adalah bagian dari kebijaksanaan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 10,   // Abu Dzar Al-Ghifari
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 32,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak halal darah seorang muslim kecuali dengan tiga hal: orang yang menikah berzina, orang yang membunuh, dan orang yang meninggalkan agama.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas’ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 33,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang mempelajari Al-Qur’an dan mengajarkannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 34,
+                'isi_hadist'  => 'Rasulullah bersabda, “Janganlah kalian iri hati.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 16,   // Abu Said Al-Khudri
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 35,
+                'isi_hadist'  => 'Rasulullah bersabda, “Agama itu nasihat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 36,
+                'isi_hadist'  => 'Rasulullah bersabda, “Setiap kebaikan adalah sedekah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 37,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa yang menipu kami, maka bukan dari golongan kami.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 38,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik manusia adalah yang paling bermanfaat bagi manusia.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,   // Jabir bin Abdullah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 39,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak akan berkurang harta karena sedekah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 40,
+                'isi_hadist'  => 'Rasulullah bersabda, “Permudahlah urusan dan jangan mempersulit.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 41,
+                'isi_hadist'  => 'Rasulullah bersabda, “Allah tidak melihat rupa dan harta kalian, tetapi melihat hati dan amal kalian.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 42,
+                'isi_hadist'  => 'Rasulullah bersabda, “Berwasiatlah kepada wanita dengan baik.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 43,
+                'isi_hadist'  => 'Rasulullah bersabda, “Bersikap jujurlah, karena kejujuran membawa kepada kebaikan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 44,
+                'isi_hadist'  => 'Rasulullah bersabda, “Pemaaf bukanlah karena lemah, tapi karena kekuatan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 45,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa memudahkan urusan orang lain, Allah akan memudahkan urusannya di dunia dan akhirat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 46,
+                'isi_hadist'  => 'Rasulullah bersabda, “Orang yang paling dicintai Allah adalah yang paling bermanfaat bagi manusia.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 47,
+                'isi_hadist'  => 'Rasulullah bersabda, “Makanan dua orang cukup untuk tiga, makanan tiga cukup untuk empat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 48,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah itu indah dan mencintai keindahan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 49,
+                'isi_hadist'  => 'Rasulullah bersabda, “Menyebarkan salam termasuk bagian dari iman.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 50,
+                'isi_hadist'  => 'Rasulullah bersabda, “Janganlah kalian saling membenci dan memutuskan hubungan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+
+            /* 51–60 */
+            [
+                'no_hadist'   => 51,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik manusia adalah yang paling panjang umurnya dan baik amalnya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 10,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 52,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa beriman kepada Allah dan hari akhir, hendaklah menghormati tamunya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 53,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tuntutlah ilmu dari buaian hingga liang lahat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 54,
+                'isi_hadist'  => 'Rasulullah bersabda, “Janganlah kalian duduk di jalan kecuali memberi hak jalan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 55,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak sempurna iman seseorang hingga ia mencintai saudaranya seperti mencintai dirinya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 56,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tebarkan salam di antara kalian.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 57,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah Maha Pengampun dan Maha Penyayang.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 58,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa menutup aib seorang muslim, Allah akan menutup aibnya di dunia dan akhirat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 59,
+                'isi_hadist'  => 'Rasulullah bersabda, “Berikanlah kemudahan dan jangan mempersulit.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 60,
+                'isi_hadist'  => 'Rasulullah bersabda, “Hendaklah salah seorang di antara kalian mengucapkan salam ketika bertemu saudaranya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+
+            /* 61–70 */
+            [
+                'no_hadist'   => 61,
+                'isi_hadist'  => 'Rasulullah bersabda, “Orang yang kuat bukan yang pandai bergulat, tetapi yang mampu menahan marah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 62,
+                'isi_hadist'  => 'Rasulullah bersabda, “Doa adalah senjata orang mukmin.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 63,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya yang halal itu jelas dan yang haram itu jelas.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 64,
+                'isi_hadist'  => 'Rasulullah bersabda, “Senyummu kepada saudaramu adalah sedekah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 65,
+                'isi_hadist'  => 'Rasulullah bersabda, “Mintalah pertolongan kepada Allah dan jangan lemah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 66,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa beriman kepada Allah dan hari akhir, hendaklah menyambung tali silaturahmi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 67,
+                'isi_hadist'  => 'Rasulullah bersabda, “Haji mabrur tidak ada balasan selain surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 68,
+                'isi_hadist'  => 'Rasulullah bersabda, “Shalat adalah tiang agama.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 69,
+                'isi_hadist'  => 'Rasulullah bersabda, “Bantulah saudaramu yang zalim atau dizalimi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 70,
+                'isi_hadist'  => 'Rasulullah bersabda, “Apabila salah seorang di antara kalian marah, hendaklah ia diam.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+
+            /* 71–80 */
+            [
+                'no_hadist'   => 71,
+                'isi_hadist'  => 'Rasulullah bersabda, “Bertakwalah di mana pun kamu berada.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 10,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 72,
+                'isi_hadist'  => 'Rasulullah bersabda, “Malu itu bagian dari iman.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 73,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sedekah dapat memadamkan api kemarahan Allah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 74,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya dunia ini manis dan hijau, dan Allah menjadikan kalian sebagai pengelola di dalamnya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 75,
+                'isi_hadist'  => 'Rasulullah bersabda, “Permudahlah urusan dan jangan mempersulit.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 76,
+                'isi_hadist'  => 'Rasulullah bersabda, “Jauhilah prasangka, karena prasangka adalah perkataan yang paling dusta.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 77,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak akan masuk surga orang yang dalam hatinya terdapat kesombongan sebesar biji sawi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 78,
+                'isi_hadist'  => 'Rasulullah bersabda, “Timbangan yang paling berat pada hari kiamat adalah akhlak yang baik.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 79,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa yang tidak menyayangi, maka ia tidak akan disayangi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 80,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tebarkanlah salam di antara kalian.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 81,
+                'isi_hadist'  => 'Rasulullah bersabda, “Janganlah kalian saling membenci dan saling memutuskan hubungan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 82,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah itu baik dan hanya menerima yang baik.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 83,
+                'isi_hadist'  => 'Rasulullah bersabda, “Janganlah kamu meremehkan kebaikan sedikit pun.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 84,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa yang memberi kemudahan, Allah akan memudahkannya di dunia dan akhirat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 85,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah itu Maha Pemaaf dan mencintai pemaaf.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 86,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya orang yang paling dibenci oleh Allah adalah yang paling suka bertengkar.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 87,
+                'isi_hadist'  => 'Rasulullah bersabda, “Janganlah kalian duduk di jalanan kecuali bila kalian memberikan haknya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 88,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang paling baik akhlaknya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 89,
+                'isi_hadist'  => 'Rasulullah bersabda, “Agama itu mudah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 90,
+                'isi_hadist'  => 'Rasulullah bersabda, “Hendaklah orang yang hadir menyampaikan kepada yang tidak hadir.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+
+            /* 91–100 */
+            [
+                'no_hadist'   => 91,
+                'isi_hadist'  => 'Rasulullah bersabda, “Takutlah kamu kepada doa orang yang terzalimi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 10,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 92,
+                'isi_hadist'  => 'Rasulullah bersabda, “Allah tidak menilai tubuh dan rupa kalian, tetapi menilai hati dan amal kalian.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 93,
+                'isi_hadist'  => 'Rasulullah bersabda, “Mukmin dengan mukmin lainnya seperti bangunan yang saling menguatkan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 94,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa yang berpuasa Ramadan karena iman dan mengharap pahala, diampuni dosanya yang telah lalu.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 95,
+                'isi_hadist'  => 'Rasulullah bersabda, “Menyebarkan salam termasuk tanda keimanan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 96,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tangan yang di atas lebih baik daripada tangan yang di bawah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 97,
+                'isi_hadist'  => 'Rasulullah bersabda, “Peliharalah Allah, niscaya Dia akan memeliharamu.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 98,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang mempelajari Al-Qur’an dan mengajarkannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 99,
+                'isi_hadist'  => 'Rasulullah bersabda, “Orang yang memutuskan silaturahmi tidak akan masuk surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 100,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa membantu kebutuhan saudaranya, maka Allah akan membantu kebutuhannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+
+            /* 101–110 */
+            [
+                'no_hadist'   => 101,
+                'isi_hadist'  => 'Rasulullah bersabda, “Jauhilah prasangka, karena prasangka adalah perkataan paling dusta.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 102,
+                'isi_hadist'  => 'Rasulullah bersabda, “Saling memberi hadiahlah kalian, maka kalian akan saling mencintai.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 103,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tanda orang munafik ada tiga: jika berbicara dusta, jika berjanji ingkar, jika dipercaya berkhianat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 104,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa yang memudahkan kesulitan orang lain, Allah akan memudahkannya di dunia dan akhirat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 105,
+                'isi_hadist'  => 'Rasulullah bersabda, “Berlaku lembutlah kalian kepada wanita.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 106,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sedekah itu dapat memadamkan dosa sebagaimana air memadamkan api.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 107,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya shalat itu adalah cahaya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 108,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang paling baik kepada keluarganya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 109,
+                'isi_hadist'  => 'Rasulullah bersabda, “Jangan marah, maka bagimu surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 110,
+                'isi_hadist'  => 'Rasulullah bersabda, “Mukmin satu dengan yang lain seperti satu bangunan yang saling menguatkan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+
+            /* 111–120 */
+            [
+                'no_hadist'   => 111,
+                'isi_hadist'  => 'Rasulullah bersabda, “Takutlah kamu kepada doa orang yang teraniaya, karena tidak ada hijab antara dia dengan Allah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 10,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 112,
+                'isi_hadist'  => 'Rasulullah bersabda, “Shalatlah sebelum matahari terbit dan sebelum matahari terbenam.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 113,
+                'isi_hadist'  => 'Rasulullah bersabda, “Bukanlah orang kuat itu yang menang dalam bergulat, tetapi yang mampu menahan diri ketika marah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 114,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya dunia ini hijau dan manis, dan Allah menjadikan kalian sebagai pengurusnya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 115,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak sempurna iman seseorang hingga dia mencintai saudaranya seperti mencintai dirinya sendiri.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 116,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa yang beriman kepada Allah dan hari akhir, hendaklah berkata baik atau diam.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 117,
+                'isi_hadist'  => 'Rasulullah bersabda, “Jagalah Allah, niscaya Dia akan menjagamu.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 118,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang mempelajari Al-Qur’an dan mengajarkannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 119,
+                'isi_hadist'  => 'Rasulullah bersabda, “Orang yang memutuskan silaturahmi tidak akan masuk surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 120,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa membantu kebutuhan saudaranya, maka Allah akan membantu kebutuhannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+
+            /* 121–130 */
+            [
+                'no_hadist'   => 121,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah tidak melihat rupa kalian, tetapi melihat hati dan amal kalian.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 122,
+                'isi_hadist'  => 'Rasulullah bersabda, “Permudahlah urusan dan jangan mempersulit.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 123,
+                'isi_hadist'  => 'Rasulullah bersabda, “Orang yang paling dicintai Allah adalah yang paling bermanfaat bagi manusia.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 124,
+                'isi_hadist'  => 'Rasulullah bersabda, “Senyumanmu kepada saudaramu adalah sedekah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 125,
+                'isi_hadist'  => 'Rasulullah bersabda, “Peliharalah Allah, niscaya Dia akan memeliharamu.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 126,
+                'isi_hadist'  => 'Rasulullah bersabda, “Bersedekahlah meskipun dengan setengah biji kurma.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 127,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik manusia adalah yang panjang umurnya dan baik amalnya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 128,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah itu Maha Lembut dan mencintai kelembutan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 129,
+                'isi_hadist'  => 'Rasulullah bersabda, “Siapa yang tidak menyayangi, tidak akan disayangi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 130,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa menghilangkan kesulitan seorang mukmin, Allah akan menghilangkan kesulitannya di hari kiamat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 131,
+                'isi_hadist'  => 'Rasulullah bersabda, “Takutlah kepada Allah di mana pun kamu berada.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 10,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 132,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa beriman kepada Allah dan hari akhir, hendaklah ia memuliakan tamunya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 133,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya amal yang paling dicintai Allah adalah yang paling rutin walaupun sedikit.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 134,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tangan di atas lebih baik daripada tangan di bawah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 135,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak akan masuk surga orang yang memutus silaturahmi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 136,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah itu indah dan mencintai keindahan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 137,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa yang menempuh jalan untuk mencari ilmu, Allah akan memudahkan jalannya menuju surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 138,
+                'isi_hadist'  => 'Rasulullah bersabda, “Shalat adalah tiang agama.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 139,
+                'isi_hadist'  => 'Rasulullah bersabda, “Janganlah kamu marah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 140,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tebarkanlah salam di antara kalian.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+
+            /* 141–150 */
+            [
+                'no_hadist'   => 141,
+                'isi_hadist'  => 'Rasulullah bersabda, “Orang mukmin dengan mukmin lainnya seperti bangunan yang saling menguatkan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 142,
+                'isi_hadist'  => 'Rasulullah bersabda, “Agama itu nasihat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 143,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak halal darah seorang muslim kecuali dengan tiga sebab: zina, membunuh, dan meninggalkan agama.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 144,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya setiap kebaikan adalah sedekah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 145,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tanda orang munafik ada tiga: jika berbicara berdusta, jika berjanji ingkar, jika dipercaya berkhianat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 146,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sedekah tidak mengurangi harta.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 147,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya shalat itu cahaya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 148,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang paling baik kepada keluarganya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 149,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah itu Maha Pengampun dan mencintai pengampunan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 150,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa menutup aib seorang muslim, Allah akan menutup aibnya di dunia dan akhirat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+
+            /* 151–160 */
+            [
+                'no_hadist'   => 151,
+                'isi_hadist'  => 'Rasulullah bersabda, “Takutlah kepada doa orang yang dizalimi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 10,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 152,
+                'isi_hadist'  => 'Rasulullah bersabda, “Shalatlah sebelum matahari terbit dan sebelum matahari terbenam.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 153,
+                'isi_hadist'  => 'Rasulullah bersabda, “Mukmin itu tidak mencela, tidak melaknat, dan tidak berkata kotor.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 154,
+                'isi_hadist'  => 'Rasulullah bersabda, “Janganlah kalian iri hati.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 155,
+                'isi_hadist'  => 'Rasulullah bersabda, “Janganlah kalian saling membenci dan saling memutuskan hubungan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 156,
+                'isi_hadist'  => 'Rasulullah bersabda, “Jauhilah prasangka, karena prasangka adalah perkataan paling dusta.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 157,
+                'isi_hadist'  => 'Rasulullah bersabda, “Peliharalah Allah, niscaya Dia akan memeliharamu.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 158,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang mempelajari Al-Qur’an dan mengajarkannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 159,
+                'isi_hadist'  => 'Rasulullah bersabda, “Orang yang memutus silaturahmi tidak akan masuk surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 160,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa membantu kebutuhan saudaranya, Allah akan membantu kebutuhannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+
+            /* 161–170 */
+            [
+                'no_hadist'   => 161,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah mencintai kelembutan dalam segala urusan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 162,
+                'isi_hadist'  => 'Rasulullah bersabda, “Malu adalah bagian dari iman.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 163,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang panjang umurnya dan baik amalnya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 164,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa menghilangkan kesulitan seorang mukmin, Allah akan menghilangkan kesulitannya pada hari kiamat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 165,
+                'isi_hadist'  => 'Rasulullah bersabda, “Jagalah Allah, niscaya Allah akan menjagamu.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 166,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tangan di atas lebih baik daripada tangan di bawah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 167,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa beriman kepada Allah dan hari akhir, hendaklah berkata baik atau diam.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 168,
+                'isi_hadist'  => 'Rasulullah bersabda, “Amalan yang paling dicintai Allah adalah amalan yang dilakukan terus-menerus walaupun sedikit.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 169,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya Allah itu indah dan mencintai keindahan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 170,
+                'isi_hadist'  => 'Rasulullah bersabda, “Janganlah kalian saling membenci dan memutuskan hubungan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 171,
+                'isi_hadist'  => 'Rasulullah bersabda, “Takutlah kepada doa orang yang terzalimi, karena tidak ada penghalang antara dia dengan Allah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 10,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 172,
+                'isi_hadist'  => 'Rasulullah bersabda, “Shalatlah sebelum matahari terbit dan sebelum matahari terbenam.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 173,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sedekah tidak akan mengurangi harta.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 174,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya dunia ini manis dan hijau, dan Allah menjadikan kalian sebagai pengelola.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 175,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak sempurna iman seseorang hingga ia mencintai saudaranya seperti mencintai dirinya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 176,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya amal yang paling dicintai Allah adalah amalan yang terus-menerus walaupun sedikit.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 177,
+                'isi_hadist'  => 'Rasulullah bersabda, “Peliharalah Allah, niscaya Dia akan memeliharamu.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 178,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang mempelajari Al-Qur’an dan mengajarkannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 179,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa memutuskan silaturahmi, maka tidak akan masuk surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 180,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa membantu kebutuhan saudaranya, maka Allah akan membantu kebutuhannya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 181,
+                'isi_hadist'  => 'Rasulullah bersabda, “Senyummu kepada saudaramu adalah sedekah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 182,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tebarkanlah salam di antara kalian.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 183,
+                'isi_hadist'  => 'Rasulullah bersabda, “Kejujuran membawa kepada kebaikan, dan kebaikan membawa ke surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 184,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa menutup aib seorang muslim, Allah akan menutup aibnya di dunia dan akhirat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 185,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa menempuh jalan untuk mencari ilmu, Allah akan memudahkan jalannya menuju surga.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 186,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa yang beriman kepada Allah dan hari akhir, hendaklah berkata baik atau diam.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 187,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya shalat adalah tiang agama.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 188,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik kalian adalah yang paling baik kepada keluarganya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 189,
+                'isi_hadist'  => 'Rasulullah bersabda, “Permudahlah urusan dan jangan mempersulit.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 190,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak akan masuk surga orang yang memutus tali silaturahmi.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 191,
+                'isi_hadist'  => 'Rasulullah bersabda, “Takutlah kepada Allah di mana pun kamu berada.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 10,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 192,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak sempurna iman seseorang hingga ia mencintai saudaranya sebagaimana mencintai dirinya sendiri.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 193,
+                'isi_hadist'  => 'Rasulullah bersabda, “Setiap kebaikan adalah sedekah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 194,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sesungguhnya dunia ini hijau dan manis, dan Allah menjadikan kalian sebagai pengelolanya.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 195,
+                'isi_hadist'  => 'Rasulullah bersabda, “Tidak akan berkurang harta karena sedekah.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 196,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sebaik-baik manusia adalah yang paling bermanfaat bagi manusia.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 197,
+                'isi_hadist'  => 'Rasulullah bersabda, “Peliharalah Allah, niscaya Dia akan memeliharamu.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 198,
+                'isi_hadist'  => 'Rasulullah bersabda, “Barangsiapa memberi kemudahan kepada orang yang kesulitan, Allah akan memberi kemudahan baginya di dunia dan akhirat.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 199,
+                'isi_hadist'  => 'Rasulullah bersabda, “Sedekah memadamkan dosa sebagaimana air memadamkan api.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 200,
+                'isi_hadist'  => 'Rasulullah bersabda, “Orang mukmin dengan mukmin lainnya seperti satu bangunan yang saling menguatkan.”',
+                'kitab_id'    => 5,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 1,
+                'isi_hadist'  => 'Rasulullah bersabda: "Sesungguhnya amal-amal itu tergantung niatnya..."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 5,
+                'isi_hadist'  => '"Tidak ada shalat bagi yang tidak membaca Al-Fatihah."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 10,
+                'isi_hadist'  => '"Sebaik-baik kalian adalah yang paling baik terhadap keluarganya."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 15,
+                'isi_hadist'  => '"Islam dibangun atas lima perkara..."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 20,
+                'isi_hadist'  => '"Barang siapa yang beriman kepada Allah dan hari akhir hendaklah berkata baik..."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 23,
+                'isi_hadist'  => '"Mudahkanlah dan jangan mempersulit, berilah kabar gembira dan jangan membuat orang lari."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 30,
+                'isi_hadist'  => '"Tidak beriman salah satu dari kalian hingga dia mencintai saudaranya seperti dirinya sendiri."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 35,
+                'isi_hadist'  => '"Tangan di atas lebih baik daripada tangan di bawah."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 40,
+                'isi_hadist'  => '"Mintalah ilmu, karena mempelajarinya karena Allah adalah ibadah."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21, // Ali bin Abi Thalib
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 45,
+                'isi_hadist'  => '"Hisablah diri kalian sebelum kalian dihisab."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 42, // Umar bin Khattab
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 50,
+                'isi_hadist'  => '"Sedekah tidak akan mengurangi harta."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 55,
+                'isi_hadist'  => '"Sesungguhnya orang yang jujur berada di atas kebaikan."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 60,
+                'isi_hadist'  => '"Sebaik-baik kalian adalah yang paling baik akhlaknya."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 65,
+                'isi_hadist'  => '"Siapa yang memudahkan kesulitan seorang mukmin, Allah akan memudahkannya."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 70,
+                'isi_hadist'  => '"Barang siapa yang tidak menyayangi maka tidak akan disayangi."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 75,
+                'isi_hadist'  => '"Janganlah kalian saling membenci dan saling memutuskan hubungan."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 80,
+                'isi_hadist'  => '"Permudahlah, jangan persulit."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 85,
+                'isi_hadist'  => '"Hendaklah orang yang hadir menyampaikan kepada yang tidak hadir."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 90,
+                'isi_hadist'  => '"Tuntutlah ilmu dari buaian hingga ke liang lahat."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 95,
+                'isi_hadist'  => '"Setiap kamu adalah pemimpin dan akan dimintai pertanggungjawaban."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 100,
+                'isi_hadist'  => '"Orang mukmin yang kuat lebih baik dan lebih dicintai Allah daripada mukmin yang lemah."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 105,
+                'isi_hadist'  => '"Senyummu di hadapan saudaramu adalah sedekah."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 110,
+                'isi_hadist'  => '"Rasulullah suka memulai dari yang kanan."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 115,
+                'isi_hadist'  => '"Tidak akan masuk surga orang yang di dalam hatinya ada kesombongan seberat biji sawi."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 120,
+                'isi_hadist'  => '"Yang terbaik di antara kalian adalah yang belajar Al-Qur’an dan mengajarkannya."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 125,
+                'isi_hadist'  => '"Permudahlah, jangan persulit, berilah kabar gembira, jangan membuat orang lari."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 130,
+                'isi_hadist'  => '"Barang siapa yang berpuasa satu hari di jalan Allah, Allah akan menjauhkan wajahnya dari neraka sejauh tujuh puluh tahun."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 135,
+                'isi_hadist'  => '"Sesungguhnya Allah itu baik dan hanya menerima yang baik."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 140,
+                'isi_hadist'  => '"Sebaik-baik manusia adalah yang paling bermanfaat bagi manusia lain."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 145,
+                'isi_hadist'  => '"Kasih sayang tidaklah dicabut melainkan dari hati orang yang celaka."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 150,
+                'isi_hadist'  => '"Hendaklah kamu berkata benar meski itu pahit."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 155,
+                'isi_hadist'  => '"Tidak sempurna iman seseorang sehingga ia mencintai saudaranya seperti mencintai dirinya."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 160,
+                'isi_hadist'  => '"Bertakwalah kepada Allah di manapun kamu berada."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 165,
+                'isi_hadist'  => '"Sesungguhnya dunia itu manis dan hijau, dan Allah menjadikan kalian sebagai khalifah di dalamnya."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 170,
+                'isi_hadist'  => '"Janganlah kalian saling iri hati, saling membenci, dan saling memutuskan hubungan."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 175,
+                'isi_hadist'  => '"Barang siapa yang menunjukkan kepada kebaikan, maka ia mendapatkan pahala seperti orang yang mengerjakannya."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 180,
+                'isi_hadist'  => '"Sesungguhnya Allah itu Maha Lembut dan menyukai kelembutan dalam segala urusan."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 185,
+                'isi_hadist'  => '"Saling memberi salam akan menumbuhkan rasa cinta di antara kalian."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 190,
+                'isi_hadist'  => '"Janganlah kalian saling mendengki, dan jangan saling membenci."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 195,
+                'isi_hadist'  => '"Sesungguhnya kejujuran membawa kepada kebaikan."',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 200,
+                'isi_hadist'  => 'Barang siapa beriman kepada Allah dan hari akhir hendaklah memuliakan tamunya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 205,
+                'isi_hadist'  => 'Rasulullah melarang keras kita berbohong dalam bercanda.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 210,
+                'isi_hadist'  => 'Tidak termasuk golongan kami orang yang tidak menyayangi yang muda dan menghormati yang tua.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 215,
+                'isi_hadist'  => 'Siapa yang menempuh jalan untuk mencari ilmu, Allah akan mudahkan baginya jalan menuju surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 220,
+                'isi_hadist'  => 'Tangan yang di atas lebih baik daripada tangan yang di bawah.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 225,
+                'isi_hadist'  => 'Shalatlah kalian sebagaimana kalian melihat aku shalat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 230,
+                'isi_hadist'  => 'Sesungguhnya orang yang paling utama di antara kalian adalah yang paling baik akhlaknya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 235,
+                'isi_hadist'  => 'Orang yang kuat bukanlah yang pandai bergulat, namun yang dapat menahan amarahnya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 240,
+                'isi_hadist'  => 'Siapa yang memudahkan urusan seorang muslim, Allah akan memudahkan urusannya di dunia dan akhirat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 245,
+                'isi_hadist'  => 'Sebaik-baik kalian adalah yang paling baik kepada istrinya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 250,
+                'isi_hadist'  => 'Janganlah kalian saling iri, saling membenci, dan saling memutuskan hubungan.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 255,
+                'isi_hadist'  => 'Barang siapa yang tidak bersyukur kepada manusia, maka ia tidak bersyukur kepada Allah.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 260,
+                'isi_hadist'  => 'Janganlah kamu marah, dan baginya surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 265,
+                'isi_hadist'  => 'Sesungguhnya sedekah itu dapat memadamkan murka Allah dan mencegah kematian yang buruk.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 270,
+                'isi_hadist'  => 'Hendaklah kalian berkata baik atau diam.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 275,
+                'isi_hadist'  => 'Permudahlah urusan, jangan mempersulit, dan berilah kabar gembira.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 280,
+                'isi_hadist'  => 'Orang yang paling dekat denganku di hari kiamat adalah yang paling baik akhlaknya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 285,
+                'isi_hadist'  => 'Senyum kepada saudaramu adalah sedekah bagimu.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 290,
+                'isi_hadist'  => 'Jagalah Allah, maka Allah akan menjagamu.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 295,
+                'isi_hadist'  => 'Rasulullah selalu memilih yang lebih mudah selama itu bukan dosa.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 300,
+                'isi_hadist'  => 'Siapa yang memberi makan seorang yang berpuasa, dia akan mendapatkan pahala seperti orang yang berpuasa.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 305,
+                'isi_hadist'  => 'Barang siapa yang menutupi aib seorang muslim, Allah akan menutupi aibnya di dunia dan akhirat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 310,
+                'isi_hadist'  => 'Sesungguhnya Allah tidak melihat rupa kalian, tetapi melihat hati dan amal kalian.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 315,
+                'isi_hadist'  => 'Sebaik-baik sedekah adalah yang dilakukan dalam keadaan sehat dan penuh harapan.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 320,
+                'isi_hadist'  => 'Sesungguhnya amal yang paling dicintai oleh Allah adalah yang terus-menerus meski sedikit.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 325,
+                'isi_hadist'  => 'Tuntutlah ilmu, karena menuntut ilmu adalah kewajiban bagi setiap muslim.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 330,
+                'isi_hadist'  => 'Tidak halal bagi seorang muslim menakuti muslim lain.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 335,
+                'isi_hadist'  => 'Sesungguhnya kelembutan tidaklah ada pada sesuatu kecuali akan menghiasinya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 340,
+                'isi_hadist'  => 'Sesungguhnya Allah menyukai apabila salah satu dari kalian melakukan sesuatu, dia melakukannya dengan itqan (tepat dan baik).',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 345,
+                'isi_hadist'  => 'Tebarkanlah salam di antara kalian.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 350,
+                'isi_hadist'  => 'Seseorang bersama dengan orang yang dia cintai.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 355,
+                'isi_hadist'  => 'Sesungguhnya manusia yang paling dibenci oleh Allah adalah yang keras kepala dalam permusuhan.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 360,
+                'isi_hadist'  => 'Tidak masuk surga orang yang memutus silaturahmi.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 365,
+                'isi_hadist'  => 'Berikanlah kepada pekerja upahnya sebelum keringatnya kering.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 370,
+                'isi_hadist'  => 'Bertakwalah kepada Allah di manapun kamu berada, dan ikutilah keburukan dengan kebaikan.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 375,
+                'isi_hadist'  => 'Janganlah kamu marah.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 380,
+                'isi_hadist'  => 'Siapa yang beriman kepada Allah dan hari akhir hendaklah mengucapkan perkataan baik atau diam.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 385,
+                'isi_hadist'  => 'Sesungguhnya akhlak yang baik akan memberatkan timbangan kebaikan pada hari kiamat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 390,
+                'isi_hadist'  => 'Agama itu nasihat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 395,
+                'isi_hadist'  => 'Siapa yang menyerupai suatu kaum maka dia termasuk bagian dari mereka.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 400,
+                'isi_hadist'  => 'Bersikaplah adil, karena keadilan lebih dekat kepada takwa.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 405,
+                'isi_hadist'  => 'Janganlah kalian saling mendengki, saling membenci, dan saling memutuskan hubungan.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 410,
+                'isi_hadist'  => 'Tidak akan masuk surga orang yang di dalam hatinya terdapat kesombongan seberat biji sawi.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 415,
+                'isi_hadist'  => 'Orang yang paling dicintai Allah adalah yang paling bermanfaat bagi manusia.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 420,
+                'isi_hadist'  => 'Barang siapa yang bersabar, maka Allah akan menjadikannya sabar.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 425,
+                'isi_hadist'  => 'Sungguh Allah mencintai kelembutan dalam setiap perkara.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 430,
+                'isi_hadist'  => 'Sesungguhnya sedekah itu dapat memadamkan dosa sebagaimana air memadamkan api.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 435,
+                'isi_hadist'  => 'Orang yang paling sempurna imannya adalah yang paling baik akhlaknya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 440,
+                'isi_hadist'  => 'Bertakwalah kepada Allah dan bersikap adillah terhadap anak-anakmu.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 445,
+                'isi_hadist'  => 'Saling memberi salam akan menumbuhkan rasa cinta di antara kalian.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 450,
+                'isi_hadist'  => 'Barang siapa yang menunjukkan kepada kebaikan, dia akan mendapatkan pahala seperti pelakunya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 455,
+                'isi_hadist'  => 'Orang yang tidak menyayangi, tidak akan disayangi.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 460,
+                'isi_hadist'  => 'Sesungguhnya agama itu mudah, dan tidak ada yang mempersulit agama kecuali akan kalah.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 465,
+                'isi_hadist'  => 'Sesungguhnya amalan yang paling dicintai Allah adalah yang terus dilakukan meski sedikit.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 470,
+                'isi_hadist'  => 'Sesungguhnya kejujuran membawa kepada kebaikan, dan kebaikan membawa ke surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 475,
+                'isi_hadist'  => 'Berilah kabar gembira dan jangan membuat orang lari.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 480,
+                'isi_hadist'  => 'Sungguh Rasulullah tidak pernah bersikap keras dan tidak pernah berbicara dengan kata-kata kotor.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 485,
+                'isi_hadist'  => 'Bertakwalah kepada Allah di mana pun kalian berada.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 490,
+                'isi_hadist'  => 'Orang muslim adalah saudara bagi muslim lainnya, tidak menzhalimi dan tidak membiarkannya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 495,
+                'isi_hadist'  => 'Tidak beriman salah satu dari kalian hingga dia mencintai untuk saudaranya apa yang dia cintai untuk dirinya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 500,
+                'isi_hadist'  => 'Orang yang paling dekat dengan Rasulullah pada hari kiamat adalah yang paling baik akhlaknya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 505,
+                'isi_hadist'  => 'Hendaklah kalian saling memberi hadiah, karena hadiah akan menghilangkan rasa benci.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 510,
+                'isi_hadist'  => 'Sesungguhnya Allah itu baik dan hanya menerima yang baik.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 515,
+                'isi_hadist'  => 'Barang siapa yang mengucapkan salam, maka dia berhak dijawab.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 520,
+                'isi_hadist'  => 'Sebaik-baik kalian adalah yang paling baik akhlaknya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 525,
+                'isi_hadist'  => 'Sesungguhnya seorang mukmin dengan mukmin lainnya seperti bangunan yang saling menguatkan.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 530,
+                'isi_hadist'  => 'Rasulullah suka memulai dari sisi kanan dalam semua urusannya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 535,
+                'isi_hadist'  => 'Barang siapa yang beriman kepada Allah dan hari akhir hendaklah dia menghormati tetangganya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 540,
+                'isi_hadist'  => 'Sesungguhnya orang yang paling dicintai Allah adalah yang paling bermanfaat bagi manusia.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 545,
+                'isi_hadist'  => 'Orang yang menutup aib seorang muslim, maka Allah akan menutup aibnya pada hari kiamat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 550,
+                'isi_hadist'  => 'Tidak halal bagi seorang muslim menakut-nakuti muslim lainnya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 555,
+                'isi_hadist'  => 'Sesungguhnya sedekah itu dapat memadamkan murka Allah dan mencegah mati buruk.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 560,
+                'isi_hadist'  => 'Janganlah kalian saling iri hati dan jangan saling membenci.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 565,
+                'isi_hadist'  => 'Kejujuran membawa kepada kebaikan, dan kebaikan membawa kepada surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 570,
+                'isi_hadist'  => 'Permudahlah, jangan mempersulit, dan berilah kabar gembira.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 575,
+                'isi_hadist'  => 'Sesungguhnya kelembutan tidaklah ada pada sesuatu melainkan akan menghiasinya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 580,
+                'isi_hadist'  => 'Barang siapa menempuh jalan untuk mencari ilmu, Allah akan memudahkan jalannya menuju surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 585,
+                'isi_hadist'  => 'Takwa kepada Allah adalah sebaik-baik bekal.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 590,
+                'isi_hadist'  => 'Senyummu di hadapan saudaramu adalah sedekah.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 595,
+                'isi_hadist'  => 'Barang siapa yang menunjukkan kepada kebaikan, maka dia mendapatkan pahala seperti orang yang melakukannya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 600,
+                'isi_hadist'  => 'Sesungguhnya orang yang paling dibenci Allah adalah orang yang keras kepala dalam perdebatan.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 605,
+                'isi_hadist'  => 'Bersikaplah adil, karena adil itu mendekatkan kepada takwa.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 610,
+                'isi_hadist'  => 'Sebaik-baik manusia adalah yang paling bermanfaat bagi manusia lain.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 615,
+                'isi_hadist'  => 'Bertakwalah kepada Allah di mana pun kamu berada.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 620,
+                'isi_hadist'  => 'Sesungguhnya amalan yang paling dicintai Allah adalah yang dilakukan secara terus-menerus meskipun sedikit.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 625,
+                'isi_hadist'  => 'Sedekah itu dapat memadamkan dosa sebagaimana air memadamkan api.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 630,
+                'isi_hadist'  => 'Sesungguhnya kelembutan tidaklah ada pada sesuatu melainkan akan menghiasinya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 635,
+                'isi_hadist'  => 'Orang mukmin dengan mukmin lainnya seperti bangunan yang saling menguatkan.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 640,
+                'isi_hadist'  => 'Berikanlah upah pekerja sebelum keringatnya kering.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 645,
+                'isi_hadist'  => 'Tidak sempurna iman seseorang hingga ia mencintai untuk saudaranya apa yang ia cintai untuk dirinya sendiri.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 650,
+                'isi_hadist'  => 'Rasulullah melarang keras kita berbohong dalam bercanda.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 655,
+                'isi_hadist'  => 'Hendaklah orang yang hadir menyampaikan kepada orang yang tidak hadir.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 660,
+                'isi_hadist'  => 'Barang siapa yang tidak menyayangi, maka tidak akan disayangi.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 665,
+                'isi_hadist'  => 'Kejujuran membawa kepada kebaikan dan kebaikan membawa kepada surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 670,
+                'isi_hadist'  => 'Permudahlah dan jangan mempersulit, berilah kabar gembira dan jangan membuat orang lari.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 675,
+                'isi_hadist'  => 'Rasulullah suka memulai dari sisi kanan dalam urusannya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 680,
+                'isi_hadist'  => 'Barang siapa beriman kepada Allah dan hari akhir, hendaklah berkata baik atau diam.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 685,
+                'isi_hadist'  => 'Orang muslim adalah saudara bagi muslim lainnya, tidak menzhalimi dan tidak membiarkannya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 690,
+                'isi_hadist'  => 'Tebarkanlah salam di antara kalian.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 695,
+                'isi_hadist'  => 'Barang siapa menunjukkan kepada kebaikan, maka ia akan mendapatkan pahala seperti pelakunya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 700,
+                'isi_hadist'  => 'Sesungguhnya Allah tidak melihat rupa dan harta kalian, tetapi melihat hati dan amal kalian.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 705,
+                'isi_hadist'  => 'Berilah kemudahan dan jangan mempersulit.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 710,
+                'isi_hadist'  => 'Agama itu nasihat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 715,
+                'isi_hadist'  => 'Sesungguhnya orang yang paling dicintai Rasulullah adalah yang paling baik akhlaknya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 720,
+                'isi_hadist'  => 'Hendaklah kalian berkata benar meski itu pahit.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 725,
+                'isi_hadist'  => 'Sedekah dapat memadamkan murka Tuhan.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 730,
+                'isi_hadist'  => 'Akhlak yang mulia akan memberatkan timbangan amal pada hari kiamat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 735,
+                'isi_hadist'  => 'Janganlah kamu marah.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 740,
+                'isi_hadist'  => 'Hisablah dirimu sebelum kamu dihisab.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 745,
+                'isi_hadist'  => 'Permudahlah, jangan mempersulit, berilah kabar gembira, dan jangan membuat orang lari.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 750,
+                'isi_hadist'  => 'Orang yang menutup aib saudaranya, Allah akan menutup aibnya di dunia dan akhirat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 755,
+                'isi_hadist'  => 'Sesungguhnya Allah Maha Lembut dan menyukai kelembutan dalam segala perkara.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 760,
+                'isi_hadist'  => 'Orang kuat bukanlah yang pandai bergulat, melainkan yang mampu menahan marah.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 765,
+                'isi_hadist'  => 'Sesungguhnya jujur membawa pada kebaikan, dan kebaikan membawa pada surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 770,
+                'isi_hadist'  => 'Senyummu kepada saudaramu adalah sedekah.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 775,
+                'isi_hadist'  => 'Rasulullah selalu memilih yang lebih mudah selama bukan dosa.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 780,
+                'isi_hadist'  => 'Barang siapa memaafkan dan berbuat baik, pahalanya di sisi Allah.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 785,
+                'isi_hadist'  => 'Orang muslim satu dengan lainnya adalah saudara, jangan menzalimi dan jangan menghinanya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 790,
+                'isi_hadist'  => 'Tebarkanlah salam di antara kalian, maka kalian akan saling mencintai.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 795,
+                'isi_hadist'  => 'Barang siapa menempuh jalan untuk menuntut ilmu, Allah mudahkan jalannya ke surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 800,
+                'isi_hadist'  => 'Barang siapa menunjukkan kepada kebaikan, maka dia mendapatkan pahala seperti pelakunya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 805,
+                'isi_hadist'  => 'Sesungguhnya orang yang tidak menyayangi, tidak akan disayangi.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 810,
+                'isi_hadist'  => 'Hendaklah yang hadir menyampaikan kepada yang tidak hadir.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 815,
+                'isi_hadist'  => 'Sesungguhnya sedekah itu memadamkan dosa sebagaimana air memadamkan api.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 820,
+                'isi_hadist'  => 'Orang yang paling dicintai Allah adalah yang paling bermanfaat bagi manusia.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 825,
+                'isi_hadist'  => 'Sesungguhnya dunia itu manis dan hijau, dan Allah menjadikan kalian khalifah di dalamnya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 830,
+                'isi_hadist'  => 'Sesungguhnya akhlak yang baik akan memberatkan timbangan amal pada hari kiamat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 835,
+                'isi_hadist'  => 'Bertakwalah kepada Allah di mana pun kalian berada.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 840,
+                'isi_hadist'  => 'Setiap kalian adalah pemimpin dan akan dimintai pertanggungjawaban atas yang dipimpinnya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 845,
+                'isi_hadist'  => 'Tebarkanlah salam agar kalian saling mencintai.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 850,
+                'isi_hadist'  => 'Berikanlah kepada pekerja upahnya sebelum keringatnya kering.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 855,
+                'isi_hadist'  => 'Sesungguhnya Allah itu baik dan hanya menerima yang baik.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 860,
+                'isi_hadist'  => 'Orang mukmin dengan mukmin lainnya seperti bangunan yang saling menguatkan.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 865,
+                'isi_hadist'  => 'Kejujuran membawa kepada kebaikan, dan kebaikan membawa kepada surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 870,
+                'isi_hadist'  => 'Barang siapa memudahkan kesulitan seorang muslim, Allah akan memudahkannya di dunia dan akhirat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 875,
+                'isi_hadist'  => 'Sesungguhnya kelembutan tidaklah ada pada sesuatu melainkan akan menghiasinya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 880,
+                'isi_hadist'  => 'Sedekah tidak akan mengurangi harta.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 885,
+                'isi_hadist'  => 'Orang muslim satu dengan yang lainnya adalah saudara, tidak menzalimi dan tidak menghinanya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 890,
+                'isi_hadist'  => 'Permudahlah urusan, jangan mempersulit, dan berilah kabar gembira.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 895,
+                'isi_hadist'  => 'Barang siapa menempuh jalan untuk mencari ilmu, Allah mudahkan jalannya ke surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 900,
+                'isi_hadist'  => 'Barang siapa beriman kepada Allah dan hari akhir hendaklah memuliakan tamunya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 905,
+                'isi_hadist'  => 'Sesungguhnya Allah tidak melihat rupa kalian, tetapi melihat hati dan amal kalian.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 910,
+                'isi_hadist'  => 'Senyum kepada saudaramu adalah sedekah.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 915,
+                'isi_hadist'  => 'Janganlah kalian saling iri hati dan saling membenci.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 920,
+                'isi_hadist'  => 'Bertakwalah kepada Allah di manapun kamu berada.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 925,
+                'isi_hadist'  => 'Sesungguhnya sedekah memadamkan dosa sebagaimana air memadamkan api.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 930,
+                'isi_hadist'  => 'Rasulullah selalu memilih yang lebih mudah selama bukan dosa.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 935,
+                'isi_hadist'  => 'Barang siapa menutup aib saudaranya, Allah akan menutup aibnya pada hari kiamat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 940,
+                'isi_hadist'  => 'Setiap kalian adalah pemimpin dan akan dimintai pertanggungjawaban atas yang dipimpinnya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 945,
+                'isi_hadist'  => 'Permudahlah, jangan mempersulit, berilah kabar gembira dan jangan membuat orang lari.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 950,
+                'isi_hadist'  => 'Orang yang paling dicintai Allah adalah yang paling bermanfaat bagi manusia.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 1,    // Abdullah bin Abbas
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 955,
+                'isi_hadist'  => 'Agama itu nasihat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 26,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 960,
+                'isi_hadist'  => 'Sedekah tidak akan mengurangi harta.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 965,
+                'isi_hadist'  => 'Kejujuran membawa kepada kebaikan, dan kebaikan membawa kepada surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 4,    // Abdullah bin Mas'ud
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 970,
+                'isi_hadist'  => 'Barang siapa memudahkan kesulitan seorang muslim, Allah akan memudahkannya di dunia dan akhirat.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 975,
+                'isi_hadist'  => 'Sesungguhnya kelembutan tidaklah ada pada sesuatu melainkan akan menghiasinya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 19,    // Aisyah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 980,
+                'isi_hadist'  => 'Orang yang kuat bukanlah yang pandai bergulat, melainkan yang dapat menahan amarahnya.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 11,   // Abu Hurairah
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 985,
+                'isi_hadist'  => 'Berikanlah kepada pekerja upahnya sebelum keringatnya kering.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 6,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 990,
+                'isi_hadist'  => 'Tebarkanlah salam di antara kalian agar kalian saling mencintai.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 21,   // Anas bin Malik
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
+            [
+                'no_hadist'   => 995,
+                'isi_hadist'  => 'Barang siapa menempuh jalan untuk mencari ilmu, Allah mudahkan jalannya menuju surga.',
+                'kitab_id'    => 6,
+                'perawi_id'   => 16,
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now(),
+            ],
         ]);
     }
 }

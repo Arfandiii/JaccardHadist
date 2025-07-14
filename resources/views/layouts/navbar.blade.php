@@ -24,10 +24,12 @@
                             class="border border-green-600 w-full max-w-sm py-2 px-2 rounded focus:outline-none focus:ring-1 focus:ring-green-600">
                     </form>
                 </div>
-                @elseif (Request::is('hadist*'))
+                @elseif (Request::is('hadist*') || Route::is('hadist.process'))
                 <div class="w-1/2">
-                    <form action="#" method="GET">
-                        <input type="text" name="q" placeholder="Cari Hadist"
+                    <form action="{{ route('hadist.process') }}" method="POST">
+                        @csrf
+                        <input type="text" name="query" placeholder="Cari Hadist..."
+                            value="{{ old('query', $query ?? '') }}"
                             class="border border-green-600 w-full max-w-sm py-2 px-2 rounded focus:outline-none focus:ring-1 focus:ring-green-600">
                     </form>
                 </div>

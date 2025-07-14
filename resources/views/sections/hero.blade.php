@@ -9,8 +9,11 @@
             <span class="text-yellow-500">SENGKUBANG</span>
         </h1>
         <div class="max-w-lg mx-auto">
-            <input type="text" placeholder="Cari hadist..."
-                class="border border-green-300 rounded-full w-full p-4 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-400 shadow transition">
+            <form action="{{ route('hadist.process') }}" method="POST">
+                @csrf
+                <input type="text" name="query" placeholder="Cari Hadist..."
+                    class="border border-green-300 rounded-full w-full p-4 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-400 shadow transition">
+            </form>
         </div>
     </div>
 

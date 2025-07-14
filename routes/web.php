@@ -11,6 +11,7 @@ use App\Http\Controllers\Admin\KitabController;
 use App\Http\Controllers\Admin\PerawiController;
 use App\Http\Controllers\PreprocessingController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\SearchController;
 
 Route::get('/', [PageController::class, 'hero'])->name('hero');
 Route::get('/buku', [PageController::class, 'buku'])->name('buku');
@@ -25,6 +26,10 @@ Route::middleware(['guest'])->group(function () {
     Route::post('/register', [AuthController::class, 'store']);
 });
 
+Route::get('/preprocess-all-hadist', [PreprocessingController::class, 'preprocessAllHadist'])->name('preprocess.hadist');
+Route::post('/process-query', [PreprocessingController::class, 'preprocessQuery'])->name('process.query');
+Route::match(['get', 'post'], '/hadist/search', [SearchController::class, 'search'])->name('hadist.process');
+
 Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
     Route::get('/profile', [AdminDashboardController::class, 'profile'])->name('dashboard.profile');
@@ -36,6 +41,7 @@ Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () 
     Route::resource('kitab', KitabController::class);
     Route::resource('perawi', PerawiController::class);
     Route::resource('hadist', HadistController::class);
+    Route::delete('/history/destroy-all', [HistoryQueryController::class, 'destroyAll'])->name('history.destroyAll');
     Route::resource('history', HistoryQueryController::class);
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 });

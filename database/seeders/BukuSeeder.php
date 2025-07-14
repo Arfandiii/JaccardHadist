@@ -13,7 +13,7 @@ class BukuSeeder extends Seeder
     public function run(): void
     {
         DB::table('buku')->insert([
-            ['judul' => 'Buku 1', 'penerbit' => 'Penerbit 1', 'pengarang' => 'Pengarang 1', 'tahun_terbit' => '2022', 'stock' => 10],
+            ['judul' => 'Buku 1', 'penerbit' => 'Penerbit 1', 'pengarang' => 'Pengarang 1', 'tahun_terbit' => '2022', 'stock' => 10,],
             ['judul' => 'Buku 2', 'penerbit' => 'Penerbit 2', 'pengarang' => 'Pengarang 2', 'tahun_terbit' => '2021', 'stock' => 8],
             ['judul' => 'Buku 3', 'penerbit' => 'Penerbit 3', 'pengarang' => 'Pengarang 3', 'tahun_terbit' => '2020', 'stock' => 12],
             ['judul' => 'Buku 4', 'penerbit' => 'Penerbit 4', 'pengarang' => 'Pengarang 4', 'tahun_terbit' => '2019', 'stock' => 7],

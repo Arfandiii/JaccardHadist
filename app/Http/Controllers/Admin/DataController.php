@@ -8,6 +8,7 @@ use App\Models\Buku;
 use App\Models\Kitab;
 use App\Models\Perawi;
 use App\Models\Hadist;
+use Illuminate\Support\Facades\DB;
 
 class DataController extends Controller
 {
@@ -35,8 +36,14 @@ class DataController extends Controller
         } elseif ($tipe === 'perawi') {
             $data = Perawi::paginate(10);
         }
+        
+        $isPreprocessed = DB::table('hadists')
+            ->whereNotIn('id', function ($query) {
+                $query->select('hadist_id')->from('document_terms');
+            })
+            ->doesntExist(); // TRUE jika SEMUA pasal sudah diproses
     
-        return view('admin.data.index', compact('counts', 'data', 'tipe'));
+        return view('admin.data.index', compact('counts', 'data', 'tipe', 'isPreprocessed'));
     }
     
 

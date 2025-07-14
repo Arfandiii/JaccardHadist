@@ -17,7 +17,7 @@
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-100">
-                    @foreach($documentsHadis as $index => $doc)
+                    @foreach($documentsHadist as $index => $doc)
                     <tr class="hover:bg-green-50 transition">
                         <td class="border p-3 text-center">{{ $index + 1 }}</td>
                         <td class="border p-3">{{ $doc['kitab'] }}</td>
@@ -100,10 +100,10 @@
                     <tr class="hover:bg-green-50 transition">
                         <td class="border p-3 text-center">{{ $index + 1 }}</td>
                         <td class="border p-3">
-                            Kitab: {{ $documentsHadis[$index]['kitab'] }} <br>
-                            Perawi: {{ $documentsHadis[$index]['perawi'] }} <br>
-                            No Hadist: {{ $documentsHadis[$index]['no_hadist'] }} <br>
-                            Isi: {{ $documentsHadis[$index]['isi_hadist'] }}
+                            Kitab: {{ $documentsHadist[$index]['kitab'] }} <br>
+                            Perawi: {{ $documentsHadist[$index]['perawi'] }} <br>
+                            No Hadist: {{ $documentsHadist[$index]['no_hadist'] }} <br>
+                            Isi: {{ $documentsHadist[$index]['isi_hadist'] }}
                         </td>
                         <td class="border p-3">
                             {{ implode(', ', $doc['tokens']) }}
