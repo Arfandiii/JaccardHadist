@@ -125,19 +125,18 @@
         </div>
     </div>
 
-
     <div class="flex flex-wrap w-full my-5 -mx-2">
         <!-- Statistik pencarian pasal -->
         <div class="w-full">
             <div class="bg-white p-6 rounded-lg shadow-md">
                 <h3 class="text-xl font-bold text-gray-800 mb-4">Statistik Pencarian</h3>
-                <canvas id="historyChart" height="200" width="400"></canvas>
+                <canvas id="historyChart" height="100" width="400"></canvas>
             </div>
         </div>
     </div>
 
 </div>
-{{-- <script>
+<script>
     document.addEventListener('DOMContentLoaded', function() {
         const ctx = document.getElementById('historyChart').getContext('2d');
         
@@ -193,5 +192,5 @@
             }
         });
     });
-</script> --}}
+</script>
 @endsection

@@ -72,10 +72,10 @@
 
                 {{-- foto sampul (optional) --}}
                 <div>
-                    <label for="photo" class="block mb-1 font-medium text-gray-700">Foto Sampul (opsional)</label>
-                    <input type="file" name="photo" id="photo" accept="image/*"
+                    <label for="image" class="block mb-1 font-medium text-gray-700">Foto Sampul (opsional)</label>
+                    <input type="file" name="image" id="image"
                         class="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-green-100 file:text-green-700 hover:file:bg-green-200">
-                    @error('photo')
+                    @error('image')
                     <span class="text-red-500 text-xs">{{ $message }}</span>
                     @enderror
                 </div>
@@ -83,7 +83,7 @@
                 {{-- tombol submit (span 2 kolom di desktop) --}}
                 <div class="md:col-span-2 flex justify-end mt-4">
                     <button type="submit"
-                        class="px-6 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">
+                        class="cursor-pointer px-6 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">
                         Simpan
                     </button>
                 </div>

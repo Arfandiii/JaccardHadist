@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('judul');
             $table->string('penerbit');
             $table->string('pengarang');
-            $table->string('tahun_terbit');
+            $table->string('tahun_terbit')->nullable();
             $table->integer('stock');
             $table->string('photo')->nullable();
             $table->timestamps();

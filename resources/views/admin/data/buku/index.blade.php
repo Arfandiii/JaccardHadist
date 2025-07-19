@@ -80,7 +80,7 @@
                                     data-tip="Delete Buku">
                                     <button type="submit"
                                         onclick="return confirm('Apakah Anda yakin ingin menghapus data buku ini?')"
-                                        class="flex items-center justify-center w-8 h-8 text-white transition-colors duration-150 rounded-full bg-red-600 hover:bg-red-500">
+                                        class="cursor-pointer flex items-center justify-center w-8 h-8 text-white transition-colors duration-150 rounded-full bg-red-600 hover:bg-red-500">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-5 fill-current">
                                             <path fill-rule="evenodd"
