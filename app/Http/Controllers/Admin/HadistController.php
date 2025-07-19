@@ -107,6 +107,11 @@ class HadistController extends Controller
             ->with('success', 'Data hadist berhasil diperbarui.');
     }
 
+    public function search(Request $request)
+    {
+        
+    }
+
     /**
      * Remove the specified resource from storage.
      */

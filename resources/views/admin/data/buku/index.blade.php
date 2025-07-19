@@ -1,12 +1,24 @@
 @if(isset($data) && $tipe === 'buku')
 <div id="buku-table" class="mt-8 bg-white shadow-md rounded-lg p-6">
+    <a href="{{ route('admin.buku.create') }}"
+        class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition mb-4 mt-6">
+        <i class="fas fa-plus mr-2"></i> Tambah Buku
+    </a>
     <div class="flex items-center justify-between mb-4">
         <h3 class="text-2xl font-bold text-gray-800">Data Buku</h3>
         <div class="flex items-center gap-2">
-            <a href="{{ route('admin.buku.create') }}"
-                class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">
-                <i class="fas fa-plus mr-2"></i> Tambah Buku
-            </a>
+            <form action="#" method="GET" class="">
+                <div class="flex flex-col md:flex-row items-center gap-2">
+                    <input type="text" name="query" placeholder="Cari Buku berdasarkan judul..."
+                        value="{{ request('query') }}"
+                        class="w-full md:w-96 px-4 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+
+                    <button type="submit"
+                        class="cursor-pointer px-4 py-2 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-700 transition">
+                        Cari
+                    </button>
+                </div>
+            </form>
             <!-- Tombol X -->
             <button onclick="document.getElementById('buku-table').classList.add('hidden')" title="Tutup Tabel"
                 class="cursor-pointer w-8 h-8 rounded-full text-red-500 hover:text-white hover:bg-red-500 transition duration-200 flex items-center justify-center">
