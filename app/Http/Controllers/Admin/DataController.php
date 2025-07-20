@@ -92,7 +92,7 @@ class DataController extends Controller
             })->paginate(10);
         } elseif ($tipe === 'perawi') {
             $data = Perawi::when($query, function ($q) use ($query) {
-                return $q->where('nama', 'like', '%' . $query . '%');
+                return $q->where('nama_perawi', 'like', '%' . $query . '%');
             })->paginate(10);
         }
         
