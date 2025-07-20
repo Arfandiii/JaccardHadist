@@ -20,7 +20,7 @@
     @endif
     <div class="p-6 mx-auto bg-white rounded-lg shadow-md my-10">
         <div class="mb-6 flex items-center text-sm text-gray-900 space-x-2">
-            <a href="{{ route('admin.dashboard') }}" class="text-blue-600 hover:underline font-medium">&larr;
+            <a href="{{ url()->previous() }}" class="text-blue-600 hover:underline font-medium">&larr;
                 Kembali</a>
             <span>/</span>
             <h2 class="font-bold mb-2 text-center text-3xl">Profile</h2>

@@ -6,7 +6,7 @@
 
         {{-- breadcrumb --}}
         <div class="mb-6 flex items-center text-sm text-gray-900 space-x-2">
-            <a href="{{ route('admin.dashboard.data') }}" class="text-green-600 hover:underline font-medium">
+            <a href="{{ url()->previous() }}" class="text-green-600 hover:underline font-medium">
                 &larr; Kembali
             </a>
             <span>/</span>

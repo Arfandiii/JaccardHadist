@@ -16,6 +16,7 @@ use App\Http\Controllers\SearchController;
 Route::get('/', [PageController::class, 'hero'])->name('hero');
 Route::get('/buku', [PageController::class, 'buku'])->name('buku');
 Route::get('/hadist', [PageController::class, 'hadist'])->name('hadist');
+Route::get('/buku/{id}', [PageController::class, 'show'])->name('buku.detail');
 Route::get('/result', [PreprocessingController::class, 'resultPreprocessing'])->name('result');
 
 

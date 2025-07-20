@@ -7,9 +7,10 @@
     <div class="flex items-center justify-between mb-4">
         <h3 class="text-2xl font-bold text-gray-800">Data Kitab</h3>
         <div class="flex items-center gap-2">
-            <form action="#" method="GET" class="">
+            <form action="{{ route('admin.dashboard.data') }}" method="GET" class="">
+                <input type="hidden" name="tipe" value="kitab">
                 <div class="flex flex-col md:flex-row items-center gap-2">
-                    <input type="text" name="query" placeholder="Cari Kitab berdasarkan judul..."
+                    <input type="text" name="query" placeholder="Cari Kitab berdasarkan Nama kitab..."
                         value="{{ request('query') }}"
                         class="w-full md:w-96 px-4 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
 
@@ -34,7 +35,7 @@
         <table class="min-w-full table-auto text-left">
             <thead class="bg-gray-50">
                 <tr>
-                    <th class="text-left py-5 px-6 font-semibold text-gray-600">ID</th>
+                    <th class="text-left py-5 px-6 font-semibold text-gray-600">No</th>
                     <th class="text-left py-5 px-6 font-semibold text-gray-600">Kitab</th>
                     <th class="py-5 px-6 font-semibold text-gray-600 text-center">Aksi</th>
                 </tr>
@@ -42,7 +43,9 @@
             <tbody>
                 @forelse($data as $kitab)
                 <tr class="hover:bg-gray-100 transition">
-                    <td class="py-5 px-6">{{ $kitab->id }}</td>
+                    <td class="py-5 px-6">{{ (($data->currentPage() - 1) *
+                        $data->perPage()) +
+                        $loop->iteration }}</td>
                     <td class="py-5 px-6">{{ $kitab->nama_kitab ?? '-' }}</td>
                     <td class="py-5 px-6">
                         <div class="flex space-x-2 justify-center">

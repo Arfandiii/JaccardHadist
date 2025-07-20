@@ -19,8 +19,8 @@
             <div class="flex gap-4 justify-end items-center w-1/2">
                 @if (Request::is('buku*'))
                 <div class="w-1/2">
-                    <form action="#" method="GET">
-                        <input type="text" name="q" placeholder="Cari Buku"
+                    <form action="{{ route('buku') }}" method="GET">
+                        <input type="text" name="query" placeholder="Cari Buku" value="{{ old('query', $query ?? '') }}"
                             class="border border-green-600 w-full max-w-sm py-2 px-2 rounded focus:outline-none focus:ring-1 focus:ring-green-600">
                     </form>
                 </div>

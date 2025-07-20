@@ -13,7 +13,8 @@
     <div class="flex items-center justify-between mb-4">
         <h3 class="text-2xl font-bold text-gray-800">Data Hadist</h3>
         <div class="flex items-center gap-5">
-            <form action="#" method="GET" class="">
+            <form action="{{ route('admin.dashboard.data') }}" method="GET" class="">
+                <input type="hidden" name="tipe" value="hadist">
                 <div class="flex flex-col md:flex-row items-center gap-2">
                     <input type="text" name="query" placeholder="Cari hadist berdasarkan isi..."
                         value="{{ request('query') }}"
@@ -40,21 +41,31 @@
         <table class="min-w-full table-auto text-left">
             <thead class="bg-gray-50">
                 <tr>
-                    <th class="text-left py-5 px-6 font-semibold text-gray-600">ID</th>
+                    <th class="text-left py-5 px-6 font-semibold text-gray-600">No</th>
                     <th class="text-left py-5 px-6 font-semibold text-gray-600">Kitab</th>
                     <th class="text-left py-5 px-6 font-semibold text-gray-600">Perawi</th>
                     <th class="text-left py-5 px-6 font-semibold text-gray-600">No Hadist</th>
+                    @if($data->first() && $data->first()->similarity)
+                    <th class="text-left py-5 px-6 font-semibold text-gray-600">Similarity</th>
+                    @endif
                     <th class="text-left py-5 px-6 font-semibold text-gray-600">Isi Hadist</th>
                     <th class="py-5 px-6 font-semibold text-gray-600 text-center">Aksi</th>
                 </tr>
             </thead>
             <tbody>
-                @forelse($data as $hadist)
+                @forelse($data as $index => $hadist)
                 <tr class="hover:bg-gray-100 transition">
-                    <td class="py-5 px-6">{{ $hadist->id }}</td>
+                    <td class="py-5 px-6">{{ (($data->currentPage() - 1) *
+                        $data->perPage()) +
+                        $loop->iteration }}</td>
                     <td class="py-5 px-6">{{ $hadist->kitab->nama_kitab ?? '-' }}</td>
                     <td class="py-5 px-6">{{ $hadist->perawi->nama_perawi ?? '-' }}</td>
                     <td class="py-5 px-6">{{ $hadist->no_hadist }}</td>
+                    @if($hadist->similarity)
+                    <td>
+                        {{ number_format($hadist->similarity * 100, 2) }}%
+                    </td>
+                    @endif
                     <td class="py-5 px-6 max-w-xs truncate" title="{{ $hadist->isi_hadist }}">{{
                         Str::limit($hadist->isi_hadist, 100) }}</td>
                     <td class="py-5 px-6">

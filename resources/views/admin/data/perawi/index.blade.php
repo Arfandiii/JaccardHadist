@@ -8,7 +8,8 @@
         <h3 class="text-2xl font-bold text-gray-800">Data Perawi</h3>
         <div class="flex items-center gap-2">
 
-            <form action="#" method="GET" class="">
+            <form action="{{ route('admin.dashboard.data') }}" method="GET" class="">
+                <input type="hidden" name="tipe" value="perawi"> {{-- penting agar tetap di halaman perawi --}}
                 <div class="flex flex-col md:flex-row items-center gap-2">
                     <input type="text" name="query" placeholder="Cari Perawi berdasarkan nama..."
                         value="{{ request('query') }}"
@@ -35,7 +36,7 @@
         <table class="min-w-full table-auto text-left">
             <thead class="bg-gray-50">
                 <tr>
-                    <th class="text-left py-5 px-6 font-semibold text-gray-600">ID</th>
+                    <th class="text-left py-5 px-6 font-semibold text-gray-600">No</th>
                     <th class="text-left py-5 px-6 font-semibold text-gray-600">Nama Perawi</th>
                     <th class="py-5 px-6 font-semibold text-gray-600 text-center">Aksi</th>
                 </tr>
@@ -43,7 +44,9 @@
             <tbody>
                 @forelse($data as $perawi)
                 <tr class="hover:bg-gray-100 transition">
-                    <td class="py-5 px-6">{{ $perawi->id }}</td>
+                    <td class="py-5 px-6">{{ (($data->currentPage() - 1) *
+                        $data->perPage()) +
+                        $loop->iteration }}</td>
                     <td class="py-5 px-6">{{ $perawi->nama_perawi ?? '-' }}</td>
                     <td class="py-5 px-6">
                         <div class="flex space-x-2 justify-center">

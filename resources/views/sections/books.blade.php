@@ -10,7 +10,8 @@
         @foreach($buku as $buku)
         <div
             class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 transition hover:shadow-xl hover:scale-[1.02] duration-300 flex flex-col">
-            <a href="#">
+            <a href="{{ route('buku.detail', $buku->id) }}">
+                {{-- Cover Buku --}}
                 <img class="h-48 w-full object-cover"
                     src="{{ asset($buku->photo ? 'storage/' . $buku->photo : 'storage/cover-buku/default-cover.png') }}"
                     alt="Cover Buku {{ $buku->judul }}">
@@ -23,7 +24,7 @@
                 </span>
 
                 {{-- Judul Buku --}}
-                <a href="#">
+                <a href="{{ route('buku.detail', $buku->id) }}">
                     <h5 class="text-lg font-semibold text-gray-800 hover:text-green-600 transition mb-1 truncate">
                         {{ $buku->judul }}
                     </h5>
@@ -36,7 +37,7 @@
 
                 {{-- Tombol --}}
                 <div class="mt-auto flex items-center justify-between">
-                    <a href="#"
+                    <a href="{{ route('buku.detail', $buku->id) }}"
                         class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400">
                         Lihat Selengkapnya
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"

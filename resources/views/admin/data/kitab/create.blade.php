@@ -6,7 +6,7 @@
     <!-- Main Content -->
     <main class="container mx-auto px-6 py-8">
         <div class="mb-6 flex items-center text-sm text-gray-900 space-x-2">
-            <a href="{{ route('admin.dashboard.data') }}" class="text-green-600 hover:underline font-medium">&larr;
+            <a href="{{ url()->previous() }}" class="text-green-600 hover:underline font-medium">&larr;
                 Kembali</a>
             <span>/</span>
             <h2 class="font-bold mb-2 text-center text-3xl">Tambah Data kitab</h2>
